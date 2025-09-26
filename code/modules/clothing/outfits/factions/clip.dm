@@ -383,6 +383,23 @@
 
 	backpack_contents = list(/obj/item/modular_computer/tablet/preset/advanced = 1)
 
+/datum/outfit/job/clip/minutemen/bridge_officer/science
+	name = "CLIP-BARD - Science Officer"
+	id_assignment = "Science Officer"
+	job_icon = "clip_navy3"
+	jobtype = /datum/job/head_of_personnel
+
+	id = /obj/item/card/id/silver
+	head = /obj/item/clothing/head/clip/slouch
+	ears = /obj/item/radio/headset/clip/alt
+	uniform = /obj/item/clothing/under/clip/formal
+	alt_uniform = null
+	alt_suit = null
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/jackboots
+
+	backpack_contents = list(/obj/item/modular_computer/tablet/preset/advanced = 1)
+
 // doctor
 
 /datum/outfit/job/clip/minutemen/doctor
@@ -666,6 +683,11 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 
 	backpack_contents = list(/obj/item/clothing/mask/gas/clip=1)
+
+/datum/outfit/job/clip/minutemen/grunt/lead/bard
+	name = "CLIP-BARD - Squad Leader"
+	id_assignment = "Squad Leader"
+	uniform = /obj/item/clothing/under/clip/officer
 
 /datum/outfit/job/clip/minutemen/grunt/lead/armed
 	name = "CLIP Minutemen - Team Sergeant (Armed - CM-82)"

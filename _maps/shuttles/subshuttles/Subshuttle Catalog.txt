@@ -102,3 +102,8 @@ Name = "Karst Breaching Pod"
 Size = "10x8"
 Purpose = "A NGR-make assault shuttle, for getting boots on bloodied ground as fast as possible."
 File Path = "_maps\shuttles\subshuttles\ngr_karst.dmm"
+
+Name = "Herman Dropship"
+Size = "10x11"
+Purpose = "A dropship built for use by CLIP-BARD, designed to rapidly insert BARD forces into hazardous areas and extract wounded civilians for treatment."
+File Path = "_maps\shuttles\subshuttles\minutemen_herman.dmm"

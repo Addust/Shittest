@@ -1,0 +1,56 @@
+	{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Lominos-class BARD Patrol Carrier",
+	"prefix": "CMSV",
+	"manufacturer": "Lanchester Shipyards",
+	"namelists": ["GENERAL", "CLIP MINUTEMEN", "NATURAL_AGGRESSIVE"],
+	"description": "A thorough refit to the Biohazard Assessment and Removal Division's earlier craft, the Lominos-class is designed to cary a team of BARD rapid response crew across the Frontier sectors, with the explicit purpose of identifying and containing potential xenofauna outbreaks. In addition, these vessels are equipped with triage equipment, permitting them to stabilise victims for further care. In addition, these ships carry a large hangar equipped with a singular Herman-class dropship (which, though modified off a non-BARD design, carries incredibly capable deterrent turrets to keep xenofauna from boarding). While crew accomodations are more cramped than a standard ship, and their armoury woefully unprepared to deal with a Frontiersmen raid, these ships have proven themselves effective against the xenofauna menace.",
+	"tags": [
+		"Combat",
+		"Medical",
+		"Subshuttle"
+	],
+	"map_short_name": "Lominos-class",
+	"faction": "/datum/faction/clip",
+	"starting_funds": 1000,
+	"map_path": "_maps/shuttles/minutemen/minutemen_lominos.dmm",
+	"limit": 1,
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/clip/minutemen/captain",
+			"officer": true,
+			"slots": 1
+		},
+		"Science Officer": {
+			"outfit": "/datum/outfit/job/clip/minutemen/bridge_officer/science",
+			"officer": true,
+			"slots": 1
+		},
+		"BARD Squad Leader": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt/lead",
+			"officer": true,
+			"slots": 1
+		},
+		"BARD Field Medic": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt/medic",
+			"slots": 1
+		},
+		"Doctor": {
+			"outfit": "/datum/outfit/job/clip/minutemen/doctor",
+			"slots": 1
+		},
+		"Naval Engineer": {
+			"outfit": "/datum/outfit/job/clip/minutemen/engineer",
+			"slots": 1
+		},
+		"BARD Responder": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt",
+			"slots": 2
+		},
+		"Deckhand": {
+			"outfit": "/datum/outfit/job/clip/assistant",
+			"slots": 1
+		}
+	},
+	"enabled": true
+}
