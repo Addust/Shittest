@@ -164,6 +164,7 @@
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
 	},
+/obj/machinery/emergency_panel,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
 "lb" = (

@@ -273,6 +273,11 @@
 /obj/structure/cable{
 	icon_state = "0-10"
 	},
+/obj/machinery/emergency_panel{
+	dir = 4;
+	pixel_x = 0;
+	pixel_y = 24
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/bridge)
 "fj" = (
