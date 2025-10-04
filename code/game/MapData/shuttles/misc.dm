@@ -40,3 +40,31 @@
 /turf/open/floor/plating/rust/conf_haz
 	initial_gas_mix = "n2=104;TEMP=293.15"
 
+
+//////////////////////
+// CLIP-BARD - LOMINOS
+//////////////////////
+
+/obj/machinery/air_sensor/ship/lominos/oxy
+	id_tag = "lominos_oxygen"
+
+/obj/machinery/air_sensor/ship/lominos/nitro
+	id_tag = "lominos_nitrogen"
+
+/obj/machinery/air_sensor/ship/lominos/fuelmix
+	id_tag = "lominos_fuel_mix"
+
+/obj/machinery/air_sensor/ship/lominos/external
+	id_tag = "lominos_external"
+
+/obj/machinery/air_sensor/ship/lominos/harvesting
+	id_tag = "lominos_harvesting"
+
+/obj/machinery/computer/atmos_control/ship/lominos
+	sensors = list(
+		"lominos_oxygen" = "Oxygen Chamber",
+		"lominos_nitrogen" = "Nitrogen Chamber",
+		"lominos_fuel_mix" = "Fuel Mix Chamber",
+		"lominos_external" = "External Air",
+		"lominos_harvesting" = "Air Harvesting Chamber",
+	)
