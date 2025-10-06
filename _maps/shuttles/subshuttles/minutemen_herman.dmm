@@ -6,6 +6,10 @@
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 1
 	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = 10
+	},
 /turf/open/floor/plating/airless,
 /area/ship/bridge)
 "cj" = (
@@ -29,9 +33,6 @@
 /turf/open/floor/plating,
 /area/ship/bridge)
 "cZ" = (
-/obj/machinery/power/shuttle/engine/electric/premium{
-	dir = 8
-	},
 /obj/structure/window/reinforced/survival_pod/spawner,
 /obj/structure/window/reinforced/survival_pod/spawner/west,
 /obj/effect/turf_decal/industrial/warning/cee{
@@ -40,6 +41,9 @@
 /obj/structure/window/reinforced/survival_pod/spawner/north,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
@@ -129,10 +133,6 @@
 /turf/open/floor/plating,
 /area/ship/bridge)
 "kf" = (
-/obj/machinery/door/poddoor{
-	id = "herman_bay";
-	dir = 4
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	id = "herman_fan"
@@ -145,6 +145,10 @@
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "herman_bay";
+	dir = 4
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/bridge)
@@ -295,6 +299,9 @@
 /obj/effect/turf_decal/corner/opaque/black/half{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating/airless,
 /area/ship/bridge)
 "wS" = (
@@ -332,10 +339,6 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
 "yM" = (
-/obj/machinery/door/poddoor{
-	id = "herman_bay";
-	dir = 4
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -343,13 +346,17 @@
 /obj/docking_port/mobile{
 	dir = 8;
 	name = "herman dock";
-	preferred_direction = 8
+	preferred_direction = 4
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "herman_bay";
+	dir = 4
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/bridge)
@@ -444,9 +451,6 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/bridge)
 "DS" = (
-/obj/machinery/power/shuttle/engine/electric/premium{
-	dir = 8
-	},
 /obj/structure/window/reinforced/survival_pod/spawner/north,
 /obj/structure/window/reinforced/survival_pod/spawner/west,
 /obj/effect/turf_decal/industrial/warning/cee{
@@ -455,6 +459,9 @@
 /obj/structure/window/reinforced/survival_pod/spawner,
 /obj/structure/cable{
 	icon_state = "0-8"
+	},
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
@@ -483,6 +490,11 @@
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/corner{
 	dir = 1
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = -20;
+	pixel_y = -21
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
@@ -579,10 +591,9 @@
 /area/ship/bridge)
 "GE" = (
 /obj/machinery/light/small/directional/west,
-/obj/structure/rack,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = 10
+/obj/machinery/power/ship_gravity,
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/plating/airless,
 /area/ship/bridge)
@@ -677,10 +688,6 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/bridge)
 "Le" = (
-/obj/machinery/door/poddoor{
-	id = "herman_bay";
-	dir = 4
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	id = "herman_fan";
@@ -694,6 +701,10 @@
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "herman_bay";
+	dir = 4
 	},
 /turf/open/floor/engine/hull/reinforced/interior,
 /area/ship/bridge)
