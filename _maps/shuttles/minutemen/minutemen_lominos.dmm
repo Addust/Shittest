@@ -47,11 +47,13 @@
 /turf/open/floor/plating,
 /area/ship/engineering/engines/starboard)
 "ax" = (
-/obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/structure/table/chem,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "aF" = (
@@ -381,6 +383,17 @@
 	},
 /turf/open/floor/engine/hull/interior,
 /area/ship/hangar)
+"dF" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/trimline/opaque/blue/warning,
+/obj/effect/turf_decal/corner/opaque/blue/border{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/handrail,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
 "dN" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/corner/opaque/black/half,
@@ -1007,6 +1020,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/security/armory)
+"jQ" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
 "jU" = (
 /obj/structure/cable{
 	icon_state = "6-9"
@@ -1088,6 +1106,9 @@
 /area/ship/engineering/engine)
 "kI" = (
 /obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "kJ" = (
@@ -1468,6 +1489,18 @@
 "og" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/maintenance/fore)
+"oh" = (
+/obj/structure/closet/crate/medical,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/regular,
+/obj/item/storage/firstaid/brute,
+/obj/item/reagent_containers/glass/bottle/formaldehyde,
+/obj/effect/mapping_helpers/crate_shelve,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "on" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 1
@@ -1490,6 +1523,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
+	},
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
@@ -1565,6 +1601,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "oW" = (
@@ -1844,6 +1881,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "re" = (
@@ -1965,6 +2003,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
+	},
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
@@ -2243,6 +2284,7 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "uz" = (
@@ -2409,6 +2451,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "wb" = (
@@ -2575,6 +2620,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/door/airlock/medical{
+	name = "Triage Operating Room"
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "xx" = (
@@ -2770,6 +2818,14 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engines/port)
+"zm" = (
+/obj/structure/table/chem,
+/obj/item/defibrillator/loaded{
+	pixel_y = 10
+	},
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
 "zt" = (
 /obj/structure/closet/wall/red/directional/west{
 	name = "squad leader's locker"
@@ -3222,6 +3278,19 @@
 /obj/effect/turf_decal/corner/opaque/blue/bordercorner,
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
+"Co" = (
+/obj/structure/table/chem,
+/obj/item/storage/box/masks{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
 "Cx" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
@@ -3736,6 +3805,14 @@
 	dir = 10
 	},
 /obj/machinery/airalarm/directional/north,
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 8
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 5;
+	pixel_y = 4;
+	default_raw_text = "Reminder on SoP: the secure triage room should be saved for patients who might be infected with xenofauna, as it is designed to delay their escape to permit a combative response."
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "Gz" = (
@@ -3935,12 +4012,11 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/medical)
 "HK" = (
-/obj/effect/turf_decal/corner/opaque/blue/border,
-/obj/effect/turf_decal/industrial/warning/green/corner{
-	dir = 4
-	},
-/obj/structure/chair/handrail,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/corner/opaque/blue/border{
+	dir = 6
+	},
+/obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "HN" = (
@@ -4096,8 +4172,14 @@
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external/dark)
 "Jw" = (
-/obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 8
+	},
+/obj/item/storage/case/surgery{
+	pixel_y = 4
+	},
+/obj/structure/table/chem,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "Jx" = (
@@ -4159,6 +4241,11 @@
 /obj/structure/sign/clip,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/maintenance/fore)
+"JN" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/mapping_helpers/crate_shelve,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "JP" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4176,7 +4263,8 @@
 /area/ship/medical)
 "JV" = (
 /obj/structure/closet/secure_closet/clip/minutemen/combat_medic,
-/turf/open/floor/plasteel/white,
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "JX" = (
 /obj/structure/rack,
@@ -4269,12 +4357,15 @@
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm/captain)
 "Ku" = (
-/obj/machinery/light/small/directional/south,
 /obj/structure/table/optable,
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "xgibbl2"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = -25
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "KA" = (
@@ -4361,6 +4452,7 @@
 /turf/open/floor/carpet/blue,
 /area/ship/crew/dorm/commad)
 "Ly" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "LA" = (
@@ -4370,12 +4462,9 @@
 /turf/open/floor/engine/hull/interior,
 /area/ship/hangar)
 "LK" = (
-/obj/effect/turf_decal/industrial/warning/green/corner{
-	dir = 8
-	},
-/obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/corner/opaque/blue/border,
 /obj/machinery/light/directional/north,
+/obj/machinery/vending/cola/blue,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "LN" = (
@@ -4471,6 +4560,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
 "Ni" = (
@@ -4630,6 +4720,9 @@
 	name = "Secure Surgery Lockdown";
 	normaldoorcontrol = 1;
 	id = "lominos_secure_surgery"
+	},
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
@@ -4904,6 +4997,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/three_quarters{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
@@ -6461,7 +6557,7 @@ NW
 NW
 NW
 iK
-UK
+Co
 UK
 UK
 UK
@@ -6494,7 +6590,7 @@ NW
 NW
 NW
 iK
-UK
+zm
 UK
 UK
 UK
@@ -6527,8 +6623,8 @@ NW
 NW
 NW
 HI
-UK
-UK
+jQ
+JN
 UK
 UK
 ms
@@ -6538,7 +6634,7 @@ OH
 xT
 Ac
 ms
-dN
+dF
 Gi
 UM
 fx
@@ -6561,7 +6657,7 @@ NW
 NW
 JU
 JV
-UK
+oh
 UK
 UK
 ms
@@ -6594,9 +6690,9 @@ NW
 NW
 JU
 JU
-UK
-ZO
 JU
+ZO
+UK
 ms
 jc
 jc
