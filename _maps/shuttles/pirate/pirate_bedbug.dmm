@@ -35,13 +35,9 @@
 /turf/open/floor/plating,
 /area/ship/crew/cryo)
 "eo" = (
-/obj/structure/closet/syndicate{
-	name = "breaching closet"
-	},
-/obj/item/storage/backpack/duffelbag/syndie/c4,
-/obj/item/melee/sledgehammer/gorlex,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/security/armory)
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ship/hallway/central)
 "fw" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 4
@@ -74,6 +70,9 @@
 /obj/item/storage/toolbox/ammo/c10mm,
 /obj/item/ammo_box/magazine/m10mm_ringneck,
 /obj/item/ammo_box/magazine/m10mm_ringneck,
+/obj/item/storage/toolbox/ammo/c357,
+/obj/item/gun_maint_kit,
+/obj/item/gun_maint_kit,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "ia" = (
@@ -102,6 +101,11 @@
 /obj/structure/salvageable/computer,
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/maintenance/starboard)
+"jA" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ship/hallway/central)
 "jN" = (
 /turf/template_noop,
 /area/ship/crew/ccommons)
@@ -112,7 +116,7 @@
 /area/ship/medical)
 "kG" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering/engines/port)
+/area/ship/hangar)
 "kO" = (
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/maintenance/starboard)
@@ -125,6 +129,31 @@
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/medical)
+"lW" = (
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a";
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced/interior,
+/area/ship/cargo)
+"lX" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating/rust,
+/area/ship/hallway/central)
+"mf" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 10
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/central)
 "mG" = (
 /obj/structure/guncloset,
 /obj/item/gun/ballistic/automatic/pistol/rattlesnake/cottonmouth,
@@ -143,12 +172,21 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/starboard)
+"nc" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating{
+	icon_state = "panelscorched"
+	},
+/area/ship/hallway/central)
 "nz" = (
 /turf/template_noop,
 /area/ship/engineering)
 "oN" = (
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/medical)
+"pq" = (
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "qb" = (
 /obj/effect/turf_decal/industrial/warning{
 	color = "#912a2a"
@@ -162,6 +200,12 @@
 "qf" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/maintenance/starboard)
+"qp" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ship/hallway/central)
 "rc" = (
 /obj/structure/cable{
 	icon_state = "1-2";
@@ -200,6 +244,10 @@
 "uQ" = (
 /turf/template_noop,
 /area/ship/hallway/central)
+"vf" = (
+/obj/item/radio/intercom/directional/south,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "vp" = (
 /obj/effect/turf_decal/industrial/warning{
 	color = "#912a2a";
@@ -223,6 +271,10 @@
 /area/ship/maintenance/starboard)
 "vP" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/engineering/communications)
+"wm" = (
+/obj/machinery/telecomms/hub,
+/turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "wM" = (
 /turf/open/floor/plating,
@@ -399,9 +451,15 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew/cryo)
 "FI" = (
-/obj/machinery/telecomms/hub,
-/turf/open/floor/plasteel/telecomms_floor,
-/area/ship/engineering/communications)
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a";
+	dir = 1
+	},
+/turf/open/floor/engine/hull/reinforced/interior,
+/area/ship/hangar)
 "FY" = (
 /obj/effect/turf_decal/industrial/warning{
 	color = "#912a2a";
@@ -502,6 +560,18 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/crew/cryo)
+"Jn" = (
+/obj/structure/closet/syndicate{
+	name = "breaching closet"
+	},
+/obj/item/storage/backpack/duffelbag/syndie/c4,
+/obj/item/melee/sledgehammer/gorlex,
+/obj/item/door_seal,
+/obj/item/door_seal,
+/obj/item/door_seal,
+/obj/item/door_seal,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/security/armory)
 "Jx" = (
 /obj/machinery/telecomms/broadcaster,
 /turf/open/floor/plasteel/telecomms_floor,
@@ -543,6 +613,11 @@
 "KU" = (
 /turf/template_noop,
 /area/ship/bridge)
+"Lu" = (
+/obj/machinery/light/small/directional/west,
+/obj/machinery/telecomms/bus,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "Lw" = (
 /obj/structure/platform{
 	dir = 8
@@ -590,8 +665,8 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/medical)
 "MW" = (
-/turf/template_noop,
-/area/ship/engineering/engine)
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/engineering)
 "MZ" = (
 /obj/structure/cable{
 	icon_state = "0-6";
@@ -605,8 +680,8 @@
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "Nw" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/engineering/engine)
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external/dark)
 "NK" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 4
@@ -643,6 +718,16 @@
 /obj/machinery/telecomms/server/presets/pirate,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
+"Qg" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 10
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/central)
 "QU" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ship/engineering/engines/port)
@@ -677,9 +762,8 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering/electrical)
 "SL" = (
-/obj/machinery/telecomms/bus,
-/turf/open/floor/plasteel/telecomms_floor,
-/area/ship/engineering/communications)
+/turf/open/floor/plating/rust,
+/area/ship/hallway/central)
 "UE" = (
 /obj/structure/cable{
 	icon_state = "1-6";
@@ -731,11 +815,12 @@ yq
 QU
 zn
 zn
-Nw
 MW
-MW
-MW
-MW
+nz
+nz
+nz
+nz
+nz
 MW
 XV
 XV
@@ -753,11 +838,12 @@ zn
 QU
 zn
 zn
-Nw
 MW
-MW
-MW
-MW
+nz
+nz
+nz
+nz
+nz
 MW
 XV
 XV
@@ -775,12 +861,13 @@ zn
 zn
 zn
 zn
-MW
-MW
-MW
-MW
-MW
-MW
+nz
+nz
+nz
+nz
+nz
+nz
+nz
 XV
 XV
 XV
@@ -798,13 +885,14 @@ zn
 zn
 zn
 MW
+nz
+nz
+nz
+nz
+nz
 MW
-MW
-MW
-MW
-MW
-IU
-IU
+tQ
+tQ
 XV
 XV
 XV
@@ -813,23 +901,24 @@ yq
 "}
 (5,1,1) = {"
 yq
-kG
 vP
 vP
 vP
 vP
 vP
+vP
+vP
 MW
-MW
-MW
-MW
-MW
+nz
+nz
+nz
+nz
 MW
 IU
-IU
-IU
-IU
-IU
+tQ
+tQ
+tQ
+tQ
 tQ
 yq
 "}
@@ -837,16 +926,17 @@ yq
 yq
 yq
 vP
-SL
-FI
+jq
+Lu
 Nt
+Jx
 vP
 nz
 nz
 nz
 nz
 nz
-nz
+MW
 IU
 IU
 IU
@@ -859,6 +949,7 @@ yq
 yq
 yq
 vP
+NK
 NK
 NK
 NK
@@ -881,9 +972,10 @@ yq
 yq
 yq
 vP
-jq
+pq
 PC
-Jx
+wm
+vf
 vP
 nz
 nz
@@ -902,6 +994,7 @@ yq
 (9,1,1) = {"
 yq
 yq
+kG
 LU
 LU
 LU
@@ -933,8 +1026,9 @@ zm
 zm
 zm
 zm
+zm
 uQ
-uQ
+eo
 UH
 fS
 fS
@@ -946,7 +1040,8 @@ yq
 (11,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -956,7 +1051,7 @@ zm
 zm
 zm
 uQ
-uQ
+eo
 UH
 fS
 fS
@@ -968,7 +1063,8 @@ yq
 (12,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -978,7 +1074,7 @@ zm
 zm
 zm
 uQ
-uQ
+eo
 UH
 fS
 fS
@@ -990,7 +1086,8 @@ yq
 (13,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1000,7 +1097,7 @@ zm
 zm
 zm
 uQ
-uQ
+nc
 UH
 fS
 fS
@@ -1012,7 +1109,8 @@ yq
 (14,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1022,7 +1120,7 @@ zm
 zm
 zm
 uQ
-uQ
+eo
 UH
 fS
 fS
@@ -1034,7 +1132,8 @@ yq
 (15,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1044,7 +1143,7 @@ zm
 zm
 zm
 uQ
-uQ
+qp
 UH
 fS
 fS
@@ -1056,7 +1155,8 @@ yq
 (16,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1066,7 +1166,7 @@ zm
 zm
 zm
 uQ
-uQ
+eo
 UH
 UH
 UH
@@ -1078,7 +1178,8 @@ yq
 (17,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1088,8 +1189,8 @@ zm
 zm
 zm
 uQ
-uQ
-uQ
+eo
+Qg
 Pj
 HH
 zT
@@ -1100,7 +1201,8 @@ yq
 (18,1,1) = {"
 yq
 yq
-zm
+FI
+wM
 wM
 wM
 wM
@@ -1110,8 +1212,8 @@ zm
 zm
 zm
 uQ
-uQ
-uQ
+nc
+mf
 Pj
 XG
 xA
@@ -1130,10 +1232,11 @@ zm
 zm
 zm
 zm
+zm
 LU
 uQ
-uQ
-uQ
+eo
+Qg
 ia
 Jl
 JW
@@ -1144,6 +1247,7 @@ yq
 (20,1,1) = {"
 yq
 yq
+kG
 LU
 LU
 LU
@@ -1154,8 +1258,8 @@ zm
 zm
 LU
 uQ
-uQ
-uQ
+eo
+Qg
 Pj
 Jl
 xA
@@ -1167,17 +1271,18 @@ yq
 yq
 yq
 yq
+yq
+Nw
+lW
+uP
+uP
+uP
+uP
 uP
 sb
-uP
-uP
-uP
-uP
-uP
-sb
 uQ
-uQ
-uQ
+qp
+Qg
 Pj
 Lw
 Fk
@@ -1189,8 +1294,9 @@ yq
 yq
 yq
 yq
-uP
-uP
+yq
+Nw
+lW
 uP
 uP
 uP
@@ -1198,7 +1304,7 @@ uP
 uP
 sb
 uQ
-uQ
+eo
 iN
 Pj
 Pj
@@ -1211,8 +1317,9 @@ yq
 yq
 yq
 yq
-uP
-uP
+yq
+Nw
+lW
 uP
 uP
 uP
@@ -1220,7 +1327,7 @@ uP
 uP
 uP
 uQ
-uQ
+jA
 qb
 Ph
 Ph
@@ -1233,8 +1340,9 @@ yq
 yq
 yq
 yq
-uP
-sb
+yq
+Nw
+lW
 uP
 uP
 uP
@@ -1242,10 +1350,10 @@ uP
 uP
 sb
 uQ
-uQ
+eo
 qb
 Ph
-Ik
+HN
 Ph
 hz
 iN
@@ -1255,21 +1363,22 @@ yq
 yq
 yq
 yq
+yq
+Nw
 sb
-sb
-sb
-sb
+uP
+uP
 sb
 sb
 sb
 sb
 uQ
-uQ
+SL
 iN
 Ph
-eo
-Ph
 HN
+Ph
+Ik
 iN
 yq
 "}
@@ -1279,19 +1388,20 @@ yq
 yq
 yq
 yq
-yq
-yq
-yq
-yq
-yq
-yq
+sb
+uP
+uP
+ri
+jN
+jN
+ri
 uQ
-uQ
+lX
 qb
 Ph
 Ph
 Ph
-HN
+Jn
 iN
 yq
 "}
@@ -1301,14 +1411,15 @@ yq
 yq
 yq
 yq
-yq
-yq
-yq
-yq
-yq
-yq
+sb
+uP
+uP
+ri
+jN
+jN
+ri
 uQ
-uQ
+eo
 iN
 iN
 iN
@@ -1321,16 +1432,17 @@ yq
 yq
 yq
 yq
+yq
 Jy
-UL
-UL
 Jy
-jN
+Jy
+Jy
+ri
 jN
 jN
 ri
 uQ
-uQ
+eo
 yW
 fw
 lH
@@ -1343,6 +1455,7 @@ yq
 yq
 yq
 yq
+yq
 Jy
 UL
 UL
@@ -1352,7 +1465,7 @@ jN
 jN
 jN
 uQ
-uQ
+eo
 Pu
 rc
 UE
@@ -1365,6 +1478,7 @@ yq
 yq
 yq
 yq
+yq
 fB
 UL
 UL
@@ -1374,7 +1488,7 @@ jN
 jN
 jN
 uQ
-uQ
+lX
 yW
 oN
 oN
@@ -1387,6 +1501,7 @@ yq
 yq
 yq
 yq
+yq
 fB
 UL
 UL
@@ -1396,7 +1511,7 @@ jN
 jN
 jN
 uQ
-uQ
+qp
 yW
 oN
 oN
@@ -1409,6 +1524,7 @@ yq
 yq
 yq
 yq
+yq
 Jy
 UL
 UL
@@ -1418,7 +1534,7 @@ jN
 jN
 jN
 uQ
-uQ
+eo
 yW
 KA
 oN
@@ -1428,6 +1544,7 @@ yq
 yq
 "}
 (33,1,1) = {"
+yq
 yq
 yq
 yq
@@ -1454,6 +1571,7 @@ yq
 yq
 yq
 yq
+yq
 KU
 KU
 KU
@@ -1472,6 +1590,7 @@ qf
 qf
 "}
 (35,1,1) = {"
+yq
 yq
 yq
 yq
@@ -1498,6 +1617,7 @@ yq
 yq
 yq
 yq
+yq
 KU
 KU
 KU
@@ -1520,6 +1640,7 @@ yq
 yq
 yq
 yq
+yq
 KU
 KU
 KU
@@ -1538,6 +1659,7 @@ mX
 qf
 "}
 (38,1,1) = {"
+yq
 yq
 yq
 yq
@@ -1566,6 +1688,7 @@ yq
 yq
 yq
 yq
+yq
 KU
 KU
 KU
@@ -1582,6 +1705,7 @@ Ej
 qf
 "}
 (40,1,1) = {"
+yq
 yq
 yq
 yq

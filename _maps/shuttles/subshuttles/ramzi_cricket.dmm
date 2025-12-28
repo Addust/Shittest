@@ -1,0 +1,353 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a";
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a"
+	},
+/turf/open/floor/engine/hull/reinforced/interior,
+/area/ship/bridge)
+"b" = (
+/obj/machinery/power/smes/shuttle/precharged,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "cricket_engines"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"c" = (
+/obj/machinery/porta_turret/ship/ramzi/light{
+	id = "cricket_guns";
+	dir = 9
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/bridge)
+"d" = (
+/obj/machinery/power/shuttle/engine/electric,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/bridge)
+"g" = (
+/obj/machinery/computer/helm/retro,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
+"h" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/bridge)
+"j" = (
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
+"l" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2";
+	layer = 3.1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
+"m" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/bridge)
+"n" = (
+/obj/effect/turf_decal/trimline/opaque/bar/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"p" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/telecomms/relay/preset/syndicate,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "cricket_smes_cover"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"s" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "cricket_engines";
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "8-9";
+	layer = 3.1
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"t" = (
+/obj/structure/chair/handrail{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/bar/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"u" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "cricket_engines"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"v" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "cricket_smes_cover"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"w" = (
+/obj/machinery/porta_turret/ship/ramzi/light{
+	id = "cricket_guns";
+	dir = 10
+	},
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/bridge)
+"x" = (
+/obj/effect/turf_decal/trimline/opaque/bar/corner,
+/obj/effect/turf_decal/trimline/opaque/bar/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"z" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "cricket_engines"
+	},
+/obj/structure/cable{
+	icon_state = "0-6"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"C" = (
+/obj/machinery/button/door{
+	dir = 1;
+	id = "cricket_windows";
+	name = "window covers";
+	pixel_x = 7;
+	pixel_y = -22
+	},
+/obj/machinery/button/door{
+	dir = 1;
+	id = "cricket_smes_cover";
+	name = "maintenance hatch";
+	pixel_x = -6;
+	pixel_y = -22
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
+"G" = (
+/obj/machinery/computer/crew/retro{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
+"H" = (
+/obj/machinery/porta_turret/ship/ramzi/light{
+	id = "cricket_guns";
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ship/bridge)
+"K" = (
+/obj/effect/turf_decal/trimline/opaque/bar/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"P" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ship/bridge)
+"S" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Cockpit";
+	dir = 4;
+	req_access_txt = "19"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a";
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/warning{
+	color = "#912a2a";
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"V" = (
+/obj/structure/chair/handrail{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/bar/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"W" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "cricket_engines"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Y" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "cricket_engines";
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Z" = (
+/obj/machinery/button/door{
+	pixel_x = -21;
+	pixel_y = 4;
+	id = "cricket_engines";
+	name = "engine covers";
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/bar/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+
+(1,1,1) = {"
+c
+P
+d
+d
+P
+w
+"}
+(2,1,1) = {"
+P
+h
+b
+b
+h
+P
+"}
+(3,1,1) = {"
+a
+V
+n
+n
+Z
+a
+"}
+(4,1,1) = {"
+a
+t
+x
+K
+t
+a
+"}
+(5,1,1) = {"
+h
+h
+S
+h
+h
+h
+"}
+(6,1,1) = {"
+h
+j
+m
+C
+h
+p
+"}
+(7,1,1) = {"
+z
+g
+l
+G
+u
+v
+"}
+(8,1,1) = {"
+W
+s
+Y
+h
+h
+H
+"}

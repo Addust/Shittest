@@ -88,6 +88,11 @@ Size = "13x6"
 Purpose = "The bridge of the roach, turned into a boarding subshuttle."
 File Path = "_maps\shuttles\subshuttles\ramzi_flea.dmm"
 
+Name = "Cricket Cargo Relay"
+Size = "8x6"
+Purpose = "An ICW-era cargo relay ship once responsible for delivering supplies in-the-field to Syndicate warships, now used by Ramzi Clique elements for transport and raids."
+File Path = "_maps\shuttles\subshuttles\ramzi_cricket.dmm"
+
 Name = "Shortbow Dropship"
 Size = "11x9"
 Purpose = "A small dropship used by the SRM."
