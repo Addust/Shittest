@@ -3655,7 +3655,7 @@
 /area/ship/engineering)
 "zH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/components/trinary/mixer/airmix{
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
 	dir = 4
 	},
 /obj/effect/turf_decal/industrial/outline/blue,
