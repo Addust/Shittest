@@ -277,7 +277,7 @@
 /obj/item/clothing/suit/space/hardsuit/syndi/ngr,
 /obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/suit_storage_unit/inherit/locked{
-	req_access_txt = "1"
+	req_access_txt = "3"
 	},
 /obj/item/tank/jetpack/oxygen/harness,
 /turf/open/floor/plasteel/tech,
@@ -1061,7 +1061,7 @@
 /obj/item/clothing/suit/space/hardsuit/syndi/ngr,
 /obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/suit_storage_unit/inherit/locked{
-	req_access_txt = "1"
+	req_access_txt = "3"
 	},
 /obj/item/tank/jetpack/oxygen/harness,
 /turf/open/floor/plasteel/tech,
