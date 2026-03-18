@@ -3655,10 +3655,10 @@
 /area/ship/engineering)
 "zH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/turf_decal/industrial/outline/blue,
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
 	dir = 4
 	},
-/obj/effect/turf_decal/industrial/outline/blue,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "zM" = (
@@ -3707,6 +3707,8 @@
 	},
 /obj/item/radio/headset/alt,
 /obj/item/radio/headset/alt,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "Aa" = (
@@ -5857,6 +5859,7 @@
 /obj/item/radio/headset/syndicate/alt/ngr,
 /obj/item/megaphone/sec,
 /obj/item/radio/headset/syndicate/ngr,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/carpet/red,
 /area/ship/crew/dorm/commad)
 "UI" = (
@@ -6661,6 +6664,7 @@
 /obj/item/radio/headset/syndicate/alt/captain/ngr,
 /obj/item/megaphone/sec,
 /obj/item/radio/headset/syndicate/captain/ngr,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/carpet/red,
 /area/ship/crew/dorm/commad)
 "ZO" = (
