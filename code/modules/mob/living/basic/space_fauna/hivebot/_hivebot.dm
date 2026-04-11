@@ -116,7 +116,7 @@
 	health = 80
 	maxHealth = 80
 	ranged_attacker = TRUE
-	calibre = /obj/item/ammo_casing/a308
+	calibre = /obj/projectile/bullet/a556_42
 
 	death_loot = list(/obj/effect/decal/cleanable/robot_debris,/obj/effect/spawner/random/waste/hivebot,
 		/obj/effect/spawner/random/waste/hivebot/part/heavy)
@@ -182,7 +182,7 @@
 /mob/living/basic/hivebot/core/death(gibbed)
 	//once we get better sprites i want this to be like the claw's death. aka fucking cool.
 	radiation_pulse(src, 500)
-	explosion(src, 0,1,3,3,)
+	explosion(src, 0,0,2,2,)
 	..(TRUE)
 
 /mob/living/basic/hivebot/core/frontier
