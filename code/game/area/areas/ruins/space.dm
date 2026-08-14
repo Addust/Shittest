@@ -370,3 +370,77 @@
 /area/ruin/space/has_grav/deepstorage/engineering
 	name = "VI Deepstorage Engineering"
 	icon_state = "engine"
+
+// Frontiersmen Shoal
+
+/area/ruin/space/has_grav/frontie_shoal
+	name = "Frontiersmen Station"
+
+/area/ruin/space/has_grav/frontie_shoal/core
+	name = "Frontiersmen Shoal Core"
+
+/area/ruin/space/has_grav/frontie_shoal/core/electrical
+	name = "Frontiersmen Shoal Core Electrical"
+
+/area/ruin/space/has_grav/frontie_shoal/core/atmos
+	name = "Frontiersmen Shoal Core Life Support"
+
+/area/ruin/space/has_grav/frontie_shoal/core/gantry
+	name = "Frontiersmen Shoal Core Docking Gantry"
+
+/area/ruin/space/has_grav/frontie_shoal/core/command
+	name = "Frontiersmen Shoal Command"
+
+/area/ruin/space/has_grav/frontie_shoal/middle
+	name = "Frontiersmen Shoal Middle"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/lounge
+	name = "Frontiersmen Shoal Middle Lounge"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/cargo
+	name = "Frontiersmen Shoal Middle Cargo"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury
+	name = "Frontiersmen Shoal Middle Armoury"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar
+	name = "Frontiersmen Shoal Hangar"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/crew
+	name = "Frontiersmen Shoal Middle Bunks"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/crew2
+	name = "Frontiersmen Shoal Secondary Middle Bunks"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/maints
+	name = "Frontiersmen Shoal Middle Maintenance"
+
+/area/ruin/space/has_grav/frontie_shoal/middle/shipping
+	name = "Frontiersmen Shoal Shipping"
+
+/area/ruin/space/has_grav/frontie_shoal/outer
+	name = "Frontiersmen Shoal Outer"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/docks
+	name = "Frontiersmen Shoal Outer Docking Gantries"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/docks/north
+	name = "Frontiersmen Shoal Fore Docking Gantries"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/docks/south
+	name = "Frontiersmen Shoal Aft Docking Gantries"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/shipping
+	name = "Frontiersmen Shoal Shipping and Receiving"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/bar
+	name = "Frontiersmen Shoal Outer Bar"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/refining
+	name = "Frontiersmen Shoal Outer Refinery"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/guards
+	name = "Frontiersmen Shoal Outer Security"
+
+/area/ruin/space/has_grav/frontie_shoal/outer/crew
+	name = "Frontiersme Shoal Outer Bunks"
