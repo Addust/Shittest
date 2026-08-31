@@ -379,7 +379,7 @@
 /area/ruin/space/has_grav/frontie_shoal/core
 	name = "Frontiersmen Shoal Core"
 
-/area/ruin/space/has_grav/frontie_shoal/core/electrical
+/area/ruin/space/has_grav/frontie_shoal/core/engine
 	name = "Frontiersmen Shoal Core Electrical"
 
 /area/ruin/space/has_grav/frontie_shoal/core/atmos
@@ -389,7 +389,8 @@
 	name = "Frontiersmen Shoal Core Docking Gantry"
 
 /area/ruin/space/has_grav/frontie_shoal/core/command
-	name = "Frontiersmen Shoal Command"
+	name = "Frontiersmen Shoal Warlord's Office"
+	icon_state = "bridge"
 
 /area/ruin/space/has_grav/frontie_shoal/middle
 	name = "Frontiersmen Shoal Middle"
@@ -402,15 +403,19 @@
 
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury
 	name = "Frontiersmen Shoal Middle Armoury"
+	icon_state = "red"
 
 /area/ruin/space/has_grav/frontie_shoal/middle/hangar
 	name = "Frontiersmen Shoal Hangar"
+	icon_state = "hangar"
 
 /area/ruin/space/has_grav/frontie_shoal/middle/crew
 	name = "Frontiersmen Shoal Middle Bunks"
+	icon_state = "crew_quarters"
 
 /area/ruin/space/has_grav/frontie_shoal/middle/crew2
 	name = "Frontiersmen Shoal Secondary Middle Bunks"
+	icon_state = "crew_quarters"
 
 /area/ruin/space/has_grav/frontie_shoal/middle/maints
 	name = "Frontiersmen Shoal Middle Maintenance"
@@ -441,6 +446,11 @@
 
 /area/ruin/space/has_grav/frontie_shoal/outer/guards
 	name = "Frontiersmen Shoal Outer Security"
+	icon_state = "red"
 
 /area/ruin/space/has_grav/frontie_shoal/outer/crew
-	name = "Frontiersme Shoal Outer Bunks"
+	name = "Frontiersmen Shoal Outer Bunks"
+	icon_state = "crew_quarters"
+
+/area/ruin/space/has_grav/frontie_shoal/broken_tug
+	name = "Broken-Down Tug"

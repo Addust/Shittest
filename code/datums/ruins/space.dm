@@ -45,5 +45,5 @@
 	id = "frontie_shoal"
 	suffix = "frontie_shoal.dmm"
 	name = "Frontiersmen Shoal"
-	description = "One of a precious few, cobbled together out of space-debris and Old Frontiersmen recon satellites, these so-called Shoals now serve as major trading hubs for members of the New Frontiersmen."
+	description = "One of a precious few, cobbled together out of space-debris and Old Frontiersmen recon satellites, these so-called Shoals now serve as major trading hubs for ships under the New Frontiersmen."
 	ruin_tags = list(RUIN_TAG_BOSS_COMBAT, RUIN_TAG_MAJOR_LOOT, RUIN_TAG_SHELTER)
