@@ -23,10 +23,28 @@
 	obj_damage = 0
 	r_hand = null
 	environment_smash = ENVIRONMENT_SMASH_NONE
+	var/helpcall = list("GUARDS!!!","INTRUDER!!","HELP!!","WE'RE UNDER ATTACK!!","PLEASE, LISTEN!! WE'RE UNDER ATTACK!!!","GET THE GUARDS!!!")
+	var/can_summon_backup = FALSE
 
 /mob/living/simple_animal/hostile/human/frontier/civilian/Aggro()
 	..()
-	say("GUARDS!!")
+	if(can_summon_backup)
+		summon_backup(15)
+	say(pick(helpcall))
+
+/mob/living/simple_animal/hostile/human/frontier/civilian/deckhand
+	name = "Frontiersmen Deckhand"
+	desc = "A new recruit or lower-ranking member of the brutal Frontiersman terrorist fleet. This one seems to be stuck with cargo or maintenance duties, given the cap, and they seem to shiver at the mere sight of you."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/deckhand
+	helpcall = list("Help!!","Guards!!","Help me!!","Shit, I don't wanna die!!","HELP!!","OH SHIT!!","WE'RE UNDER ATTACK!!","PLEASE DON'T KILL ME!!")
+
+/mob/living/simple_animal/hostile/human/frontier/civilian/technician
+	name = "Frontiersmen Motorman"
+	desc = "A worker of the brutal Frontiersman terrorist fleet! This one wears a dirty-grey hardhat and worn-through insulated gloves, and seems to carry only maintenance supplies, shivering a bit at your presence."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/technician
+	can_summon_backup = TRUE //more trusted than doorguards/deckhands
+	helpcall = list("Oh, shit!","We're being boarded!","Shit, shit, shit!","We're under attack!","I'm just an engineer!!","I didn't sign on for this shit! Help!","HELP!!!","GUARDS!!!","WE'RE UNDER ATTACK!!")
+
 
 /mob/living/simple_animal/hostile/human/frontier/internals
 	icon_state = "frontiersmanmelee_mask"
@@ -333,6 +351,21 @@
 	minbodytemp = 0
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/trooper/internals
 
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/ashhand
+	name = "Frontiersman Bodyguard"
+	desc = "A veteran member of the brutal Frontiersman terrorist fleet! This one stands tall and proud, a shawl draped around their neck and a hefty revolver raised high in their hand."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/trooper/bodyguard
+	armor_base = /obj/item/clothing/suit/armor/vest/bulletproof/frontier
+	casingtype = /obj/item/ammo_casing/a4570
+	rapid = 1
+	ranged_cooldown_time = 1.2 SECONDS
+	r_hand = /obj/item/gun/ballistic/revolver/ashhand
+	projectilesound = 'sound/weapons/gun/revolver/shot_hunting.ogg'
+	icon_state = "frontiersmanrangedelite_mask"
+	atmos_requirements = IMMUNE_ATMOS_REQS
+	minbodytemp = 0
+
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/spitter
 	name = "Frontiersman Runner"
 	desc = "A quick-footed member of the brutal Frontiersman terrorist fleet! This one wields a boxy submachine gun in one hand."
@@ -354,7 +387,6 @@
 	weapon_drop_chance = 0
 
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/space
-	icon_state = "frontiersmanrangedelite_mask"
 	atmos_requirements = IMMUNE_ATMOS_REQS
 	icon_state = "frontiersmenrangedelite_space"
 	minbodytemp = 0
@@ -582,6 +614,39 @@
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/buckshot/neutered
 	weapon_drop_chance = 0
 
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming
+	var/shout = list("COME AT ME!!","LADS, GET DOWN!!","WE'VE GOT ONE!!","INCOMING!!","OPENING FIRE!!","WATCH OUT!!","EAT LEAD!!","FOR A FREE FRONTIER!!","COME GET SOME!!")
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/Aggro()
+	..()
+	say(pick(helpcall)) //doesnt summon backup they just Yell at you
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower
+	name = "Frontiersman Repressor"
+	desc = "A horifically-still mass of plasteel and flesh. Its motions are filled with a deliberate and exacting malice. A heavy air-cooled machine-gun is cradled in their arms, bipod limply hanging off its barrel's shroud."
+	r_hand = /obj/item/gun/ballistic/automatic/hmg/mower
+	rapid_fire_delay = 0.27 SECONDS
+	casingtype = /obj/item/ammo_casing/a308
+	spread = 12 //worse than the player-controlled version because im not THAT evil
+	rapid = 3 //one burst will goop an unarmoured target
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry
+	desc = "A horifically-still mass of plasteel and flesh. Its few motions are filled with a deliberate and exacting malice. A heavy air-cooled machine-gun is cradled in their arms, bipod firmly planted on the barricades around them."
+	stop_automated_movement = 1
+	wander = 0
+	retreat_distance = 0
+	environment_smash = 0
+	spread = 8 //better than the guy thats actually willing to move
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/neutered
+	weapon_drop_chance = 0
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/neutered
+	weapon_drop_chance = 0
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry/neutered
+	weapon_drop_chance = 0
+
 /mob/living/simple_animal/hostile/human/frontier/ranged/officer
 	name = "Frontiersman Boss"
 	desc = "This Frontiersman moves with what could almost pass for discipline among the infamously ragtag terrorists. They leer at their underlings, one hand resting consciously over the machine pistol at their hip."
@@ -682,3 +747,35 @@
 
 /mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/internals/neutered
 	weapon_drop_chance = 0
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40
+	name = "Frontiersman Chief"
+	desc = "This Frontiersman moves with what could almost pass for discipline among the infamously ragtag terrorists. They calmly gaze over their command, a terrifying hybrid rifle cradled in their arms."
+	icon_state = "frontiersmanofficer"
+	rapid = 3
+	spread = 12
+	rapid_fire_delay = 0.1 SECONDS
+	shoot_point_blank = TRUE
+	projectilesound = 'sound/weapons/gun/laser/e40_bal.ogg'
+	casingtype = /obj/item/ammo_casing/caseless/c299
+	r_hand = /obj/item/gun/ballistic/automatic/assault/e40
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals
+	icon_state = "frontiersmanofficer_mask"
+	atmos_requirements = IMMUNE_ATMOS_REQS
+	minbodytemp = 0
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals/warlord
+	name = "Frontiersman Warlord"
+	desc = "A towering, heavily-armoured figure moving with discipline even greater than their subordinate officers. They watch over their command judgementally, a hybrid assault rifle cradled in their arms."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/warlord
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/frontier
+	rapid = 4
+	maxHealth = 150 //not supercollider levels of souped up but theyre ready to kick ass
+	var/helpcall = list("Guards, to me!","Another idiot trying their hand!","Let's get 'em!","Come at me!","Let's have at you!","Come on lads, let's get 'em!","Let's dance!")
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals/warlord/Aggro() //now that's a typepath alright
+	..()
+	summon_backup(15)
+	say(pick(helpcall))
