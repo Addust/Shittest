@@ -360,3 +360,8 @@
 	desc = "A specialized drone made by the Al'sa Guild for quick skirmishes at close range, nicknamed 'Hopper' for its way of running. Sought after by both Makosso-Warra and the Coalition during the ICW, many were sold off and produced locally in the frontier. This model is painted in the colors of the Syndicate Coalition"
 	faction = list(FACTION_HOSTILE)
 	icon_state = "hopper_coalition"
+
+/mob/living/simple_animal/hostile/automated/hopper/frontier
+	name = "Al'sa CQB 'Hopper'"
+	desc = "A specialized drone made by the Al'sa Guild for quick skirmishes at close range, nicknamed 'Hopper' for its way of running. Sought after by both Makosso-Warra and the Coalition during the ICW, many were sold off and produced locally in the frontier. This instance seems to have been reprogrammed by the Frontiersmen."
+	faction = list(FACTION_ANTAG_FRONTIERSMEN)
