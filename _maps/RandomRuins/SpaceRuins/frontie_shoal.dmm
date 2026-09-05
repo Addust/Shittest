@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/template_noop,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "ag" = (
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
@@ -69,6 +72,9 @@
 "cH" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"df" = (
+/turf/open/floor/plating/asteroid/smoothed,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "dn" = (
 /obj/effect/turf_decal/rechargefloor,
 /mob/living/simple_animal/hostile/automated/hopper/frontier{
@@ -327,6 +333,13 @@
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/wasp/internals/neutered,
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"sM" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/abandoned_minebot/frontiersman{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "sW" = (
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
 /turf/open/floor/plating/rust,
@@ -426,6 +439,9 @@
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter/viper,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"zV" = (
+/turf/closed/mineral/random/low_chance,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Ae" = (
 /obj/effect/turf_decal/miskilamo_small/left{
 	dir = 1
@@ -439,6 +455,10 @@
 "As" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"Aw" = (
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry/neutered,
+/turf/template_noop,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Az" = (
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood,
@@ -5221,13 +5241,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 nn
 nn
 iq
@@ -5306,13 +5326,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 nn
 nn
 ZU
@@ -5391,13 +5411,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 ZU
 ZU
 ZU
@@ -5476,13 +5496,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 gg
 gg
 gg
@@ -5561,16 +5581,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-oy
+aa
+aa
+aa
+Aw
+aa
+aa
+zV
 gg
 gg
-gg
+ZU
 UW
 UW
 qc
@@ -5646,15 +5666,15 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
+aa
+aa
+aa
+aa
+aa
+zV
+zV
 oy
 oy
-ZU
-ZU
 ZU
 UW
 UW
@@ -5731,13 +5751,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-oy
-oy
+aa
+aa
+aa
+aa
+aa
+zV
+zV
 oy
 oy
 ZU
@@ -5816,13 +5836,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-tP
-oy
+aa
+aa
+aa
+aa
+aa
+df
+zV
 oy
 oy
 hy
@@ -5901,13 +5921,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-tP
-tP
+aa
+aa
+aa
+aa
+aa
+df
+df
 oy
 oy
 iq
@@ -5986,13 +6006,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-tP
+aa
+aa
+aa
+aa
+aa
+aa
+df
 tP
 iq
 iq
@@ -6510,7 +6530,7 @@ AS
 UW
 UW
 kP
-Uf
+sM
 ma
 CQ
 CQ
