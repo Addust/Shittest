@@ -388,6 +388,14 @@
 /area/ruin/space/has_grav/frontie_shoal/core/gantry
 	name = "Frontiersmen Shoal Core Docking Gantry"
 
+/area/ruin/space/has_grav/frontie_shoal/core/north
+	name = "Frontiersmen Shoal Core North Hall"
+
+/area/ruin/space/has_grav/frontie_shoal/core/south
+	name = "Frontiersmen Shoal Core South Hall"
+
+
+
 /area/ruin/space/has_grav/frontie_shoal/core/command
 	name = "Frontiersmen Shoal Warlord's Office"
 	icon_state = "bridge"

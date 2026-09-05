@@ -1,18 +1,36 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ag" = (
-/obj/structure/railing/thick{
-	dir = 1
-	},
-/turf/open/floor/plating/asteroid/smoothed,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"al" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/maints)
 "aq" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "ar" = (
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"aV" = (
+/obj/machinery/button/door{
+	id = "frontie_shoal_core_warehouse";
+	pixel_y = 25
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"bl" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"bs" = (
+/obj/effect/spawner/random/trash/decal,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"bz" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "bC" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "xltrails_2";
@@ -27,9 +45,37 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"bT" = (
+/obj/structure/table/wood/reinforced,
+/obj/machinery/computer/security/telescreen/entertainment{
+	dir = 8;
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"bW" = (
+/obj/structure/hazard_shutoff/electrical_shutoff{
+	pixel_x = 0;
+	pixel_y = 11;
+	name = "burglar alarm shutoff";
+	id = "frontie_shoal_alarms"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"ci" = (
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "cH" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"dn" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/hopper/frontier{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "ef" = (
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
@@ -38,10 +84,33 @@
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "eO" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"fd" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 6
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"fm" = (
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating/asteroid/smoothed,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"fK" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
 "gg" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"gC" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 10
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "gP" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable{
@@ -50,20 +119,29 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "gZ" = (
-/obj/effect/decal/fakelattice{
-	icon_state = "lattice-3"
-	},
 /obj/structure/railing/thick,
+/obj/item/stack/ore/salvage/scraptitanium,
 /turf/open/floor/plating/asteroid/smoothed,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/asteroid)
 "hh" = (
-/obj/effect/spawner/random/structure/grille,
-/turf/open/floor/engine/hull/interior,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/turf/open/floor/plating/asteroid/smoothed,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"hr" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
+"hy" = (
+/obj/structure/girder/reinforced,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "hC" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "hE" = (
 /turf/template_noop,
 /area/ruin/space/has_grav/frontie_shoal/middle/maints)
@@ -73,41 +151,84 @@
 /area/asteroid)
 "iq" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"iy" = (
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_y = -25;
+	pixel_x = 7;
+	id = "frontie_shoal_core_warehouse"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "iB" = (
 /obj/machinery/door/poddoor{
 	id = "frontie_shoal_core_atmoslock"
 	},
 /obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "iE" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
 "iI" = (
-/obj/effect/decal/fakelattice{
-	icon_state = "lattice-12"
-	},
 /obj/structure/railing/thick{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/smoothed,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
 "jI" = (
 /obj/structure/catwalk/over,
-/turf/open/floor/plating,
+/turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
-"kP" = (
+"jK" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"kb" = (
 /obj/structure/grille,
-/turf/open/floor/engine/hull/interior,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/obj/structure/window/plasma/reinforced/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"kc" = (
+/turf/template_noop,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"kH" = (
+/turf/open/floor/plating/rust,
+/area/asteroid)
+"kP" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_botchambers"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"kX" = (
+/turf/open/floor/plasteel/showroomfloor,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"la" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
 "ma" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "mp" = (
 /turf/open/floor/plating/asteroid/smoothed/airless,
 /area/asteroid)
+"mw" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"mE" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/hopper/frontier{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"mS" = (
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "nn" = (
 /turf/template_noop,
 /area/template_noop)
@@ -123,8 +244,10 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "ot" = (
-/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals/warlord,
-/turf/template_noop,
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals/warlord{
+	weapon_drop_chance = 100
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "ov" = (
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
@@ -133,21 +256,39 @@
 "oy" = (
 /turf/closed/mineral/random/low_chance,
 /area/asteroid)
+"px" = (
+/obj/effect/turf_decal/corner_techfloor_gray/full,
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/suit/space/hardsuit/security/independent/frontier,
+/obj/item/clothing/mask/gas/frontiersmen,
+/obj/item/tank/jetpack/improvised,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"pP" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "qc" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "qm" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "frontie_shoal_core_engilock";
+	dir = 4
+	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "qn" = (
-/obj/effect/decal/fakelattice{
-	icon_state = "lattice-7"
-	},
 /obj/structure/railing/thick{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/smoothed,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/asteroid)
+"qB" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "qE" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable{
@@ -160,17 +301,59 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"rU" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/hopper/frontier{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"rX" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "sb" = (
+/obj/machinery/door/poddoor/preopen{
+	id = "frontie_shoal_core_engilock";
+	dir = 4
+	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
-"sW" = (
+"sr" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/maints)
+"sG" = (
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/wasp/internals/neutered,
 /turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"sW" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"tx" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_panicroom"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"tA" = (
+/turf/closed/wall/r_wall/rust,
+/area/asteroid)
 "tD" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "tP" = (
+/turf/open/floor/plating/asteroid/smoothed,
+/area/asteroid)
+"tR" = (
+/obj/effect/spawner/random/trash,
 /turf/open/floor/plating/asteroid/smoothed,
 /area/asteroid)
 "uw" = (
@@ -182,6 +365,7 @@
 "uW" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/smes/engineering,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "wZ" = (
@@ -191,21 +375,38 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"xj" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "xq" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "xu" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/middle/maints)
+"xB" = (
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
 "xO" = (
 /obj/effect/turf_decal/rechargefloor,
+/obj/machinery/button/door{
+	dir = 8;
+	pixel_x = 25;
+	pixel_y = 6;
+	id = "frontie_shoal_core_panicroom"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "xQ" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"xY" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "yg" = (
 /obj/machinery/porta_turret/ruin/frontiersmen{
 	dir = 4;
@@ -213,22 +414,60 @@
 	id = "shoal_core_thebugs"
 	},
 /turf/open/floor/plating/rust,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"yr" = (
+/obj/structure/poddoor_assembly/shutters,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "ze" = (
-/turf/template_noop,
+/turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "zT" = (
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter/viper,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"Ae" = (
+/obj/effect/turf_decal/miskilamo_small/left{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/asteroid)
+"Am" = (
+/obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"As" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "Az" = (
 /obj/structure/table/wood/reinforced,
-/turf/template_noop,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "AE" = (
-/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/ashhand,
-/turf/template_noop,
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/ashhand{
+	weapon_drop_chance = 100
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"AS" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"BA" = (
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_y = -25;
+	pixel_x = 7;
+	id = "frontie_shoal_core_engilock"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"BR" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "BW" = (
 /obj/effect/mob_spawn/human/corpse/frontier/technician,
 /obj/effect/decal/cleanable/blood/old,
@@ -244,13 +483,28 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"CP" = (
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "CQ" = (
-/turf/template_noop,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"Dt" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/quadrotor/frontiersman{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Dz" = (
 /obj/effect/turf_decal/rechargefloor,
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"DB" = (
+/obj/structure/railing/thick,
+/obj/effect/spawner/random/trash,
+/turf/open/floor/plating/asteroid/smoothed,
+/area/asteroid)
 "DL" = (
 /obj/effect/turf_decal/corner_techfloor_grid/full,
 /obj/machinery/power/rtg/advanced{
@@ -266,15 +520,31 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "Ey" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_warehouse"
+	},
 /turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"EV" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_panicroom"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"Ft" = (
+/obj/structure/hazard/floor/burglar_alarm{
+	id = "frontie_shoal_alarms"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Fz" = (
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "Gj" = (
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space)
 "Go" = (
 /obj/machinery/power/rtg/advanced{
 	desc = "An advanced RTG capable of moderating isotope decay, increasing power output but reducing lifetime. It uses plasma-fueled radiation collectors to increase output even further. This one seems to have been in service for far longer than it ought to be.";
@@ -284,9 +554,22 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"GE" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
 "GI" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
+"GU" = (
+/obj/structure/cable{
+	icon_state = "6-8"
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "Hm" = (
 /turf/closed/wall/r_wall,
@@ -304,14 +587,18 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"Is" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "IM" = (
 /obj/structure/grille,
 /obj/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "Jc" = (
-/turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
 "JZ" = (
 /obj/machinery/button/door{
 	dir = 1;
@@ -323,8 +610,15 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"Ks" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_botchambers_south";
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "KW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -352,18 +646,35 @@
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "MX" = (
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "Ng" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"Ni" = (
+/obj/structure/hazard/floor/burglar_alarm{
+	id = "frontie_shoal_alarms"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Ns" = (
 /obj/structure/railing/thick,
 /turf/open/floor/plating/asteroid/smoothed,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/asteroid)
 "Nz" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"NH" = (
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/suit/space/hardsuit/security/independent/frontier,
+/obj/item/clothing/mask/gas/frontiersmen,
+/obj/item/tank/jetpack/improvised,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "NO" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
@@ -372,10 +683,17 @@
 /obj/effect/turf_decal/rechargefloor,
 /mob/living/basic/hivebot/strong/frontier,
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"OC" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"OQ" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "PI" = (
-/turf/template_noop,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "PM" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "xltrails_2";
@@ -383,6 +701,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"PQ" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating/asteroid/smoothed,
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
 "PU" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/effect/radiation{
@@ -401,9 +726,36 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"Rw" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/basic/hivebot/strong/frontier,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"RC" = (
+/obj/effect/turf_decal/corner_techfloor_gray/full{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
 "SN" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"SP" = (
+/obj/structure/table/wood/reinforced,
+/obj/machinery/button/door{
+	pixel_y = 23;
+	pixel_x = 0;
+	id = "frontie_shoal_core_botchambers";
+	name = "Automated Defences"
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/frontie_shoal/core/command)
+"SS" = (
+/obj/structure/hazard/floor/burglar_alarm{
+	id = "frontie_shoal_alarms"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "TB" = (
 /obj/effect/turf_decal/corner_techfloor_grid{
 	dir = 6
@@ -419,31 +771,100 @@
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "Ue" = (
 /obj/structure/barricade/sandbags,
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"Uf" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/quadrotor/frontiersman{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"Ux" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"UP" = (
+/obj/structure/cable{
+	icon_state = "2-9"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
+"UR" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "frontie_shoal_core_botchambers_south";
+	dir = 2
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "UW" = (
-/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/wasp/internals/neutered,
-/turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"Vu" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"VV" = (
+/turf/closed/wall/r_wall/rust/yesdiag,
+/area/ruin/space/has_grav/frontie_shoal/middle/maints)
 "VY" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "Wb" = (
-/obj/structure/grille/broken,
-/turf/open/floor/engine/hull/interior,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/obj/item/stack/ore/salvage/scrapmetal,
+/turf/open/floor/plating/asteroid/smoothed,
+/area/asteroid)
 "Wo" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ruin/space/has_grav/frontie_shoal/core/atmos)
+/area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"Xg" = (
+/obj/effect/spawner/random/trash/caution_sign,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Xj" = (
 /obj/structure/grille,
 /obj/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/core)
+/area/ruin/space/has_grav/frontie_shoal/core/north)
+"Xo" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"Xs" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/maints)
+"Yg" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"Yr" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/hunter,
+/obj/machinery/button/door{
+	id = "frontie_shoal_core_engilock";
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
+"YG" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"YS" = (
+/obj/effect/turf_decal/miskilamo_small{
+	dir = 1
+	},
+/turf/open/floor/engine/hull/interior,
+/area/asteroid)
+"ZP" = (
+/turf/open/floor/engine/hull/interior,
+/area/asteroid)
+"ZU" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 
 (1,1,1) = {"
 nn
@@ -3795,10 +4216,10 @@ nn
 nn
 nn
 nn
-ze
-ze
-ze
-ze
+nn
+nn
+nn
+nn
 nn
 nn
 nn
@@ -3880,10 +4301,10 @@ nn
 nn
 nn
 nn
-ze
-ze
-ze
-ze
+nn
+nn
+nn
+nn
 nn
 nn
 nn
@@ -3965,10 +4386,10 @@ nn
 nn
 nn
 nn
-ze
-ze
-ze
-ze
+nn
+nn
+nn
+nn
 nn
 nn
 nn
@@ -4050,11 +4471,11 @@ nn
 nn
 nn
 nn
-ze
-ze
-ze
-ze
-nn
+xj
+qB
+As
+As
+xj
 nn
 nn
 nn
@@ -4133,15 +4554,15 @@ nn
 nn
 nn
 nn
-nn
+Xo
+kb
+Xo
 ze
 ze
 ze
-ze
-ze
-ze
-nn
-nn
+xj
+kb
+Xo
 nn
 nn
 nn
@@ -4215,22 +4636,22 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
+mw
+iq
+iq
+Xo
 ze
 ze
 ze
 ze
 ze
 ze
-nn
-nn
-nn
-nn
-nn
-nn
+ze
+Xo
+oy
+oy
+oy
+oy
 nn
 nn
 nn
@@ -4299,24 +4720,24 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
+mw
+iq
+NH
+px
+Xo
 ze
 ze
 ze
 ze
 ze
 ze
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+ze
+Xo
+jK
+jK
+jK
+oy
+oy
 nn
 nn
 nn
@@ -4384,28 +4805,28 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
+iq
+Ux
+UW
+UW
+Xo
 ze
 ze
+xY
+xY
+xY
 ze
 ze
-ze
-ze
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+Xo
+ci
+ci
+jK
+oy
+oy
+oy
+oy
+oy
+oy
 nn
 nn
 nn
@@ -4469,29 +4890,29 @@ nn
 nn
 nn
 nn
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-nn
-nn
-nn
-nn
-nn
-nn
+iq
+iq
+rX
+iq
+Xo
+ze
+ze
+xY
+sG
+ze
+ze
+ze
+Xo
+jK
+YG
+jK
+jK
+Is
+oy
+oy
+oy
+oy
+oy
 nn
 nn
 nn
@@ -4554,29 +4975,29 @@ nn
 nn
 nn
 nn
+iq
+UW
+UW
+UW
+As
+ze
+ze
+ze
+ze
+ze
+ze
+ze
+As
 PI
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+PI
+jK
+jK
+jK
+Is
+oy
+oy
 nn
 nn
 nn
@@ -4639,30 +5060,30 @@ nn
 nn
 nn
 nn
-PI
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
-eO
+iq
 UW
-eO
-eO
-eO
-eO
-eO
+UW
+UW
+As
+ze
+ze
+Yg
+ze
+ze
+ze
+ze
+As
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+PI
+PI
+jK
+Dt
+rU
+jK
+oy
+oy
+oy
 nn
 nn
 nn
@@ -4724,9 +5145,9 @@ nn
 nn
 nn
 nn
-PI
-eO
-eO
+iq
+UW
+UW
 iq
 iq
 ma
@@ -4736,18 +5157,18 @@ xQ
 ma
 ma
 ma
-iq
-iq
-eO
-eO
+jK
+jK
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+jK
+jK
+Ks
+Ks
+jK
+Is
+oy
+oy
 nn
 nn
 nn
@@ -4809,35 +5230,35 @@ nn
 nn
 nn
 nn
-PI
-eO
-eO
-Ey
-Dz
+iq
+UW
+UW
+kP
+mE
 ma
 CQ
 CQ
 CQ
-CQ
+xB
 CQ
 ma
 Oh
-Ey
-eO
-eO
+UR
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+iy
+jK
+aV
+eO
+eO
+ag
+jK
+oy
+Xs
+Xs
+Xs
+hE
+hE
+hE
 nn
 nn
 nn
@@ -4894,11 +5315,11 @@ nn
 nn
 nn
 nn
-PI
-eO
-eO
-Ey
-Oh
+ZU
+UW
+UW
+kP
+Uf
 ma
 CQ
 CQ
@@ -4906,24 +5327,24 @@ CQ
 CQ
 CQ
 ma
-Dz
+dn
+UR
+PI
+Ni
 Ey
 eO
 eO
-PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+eO
+ag
+jK
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -4977,13 +5398,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-PI
-eO
-eO
-ma
-ma
+ZU
+ZU
+ZU
+UW
+UW
+qc
+qc
 ma
 qc
 CQ
@@ -4993,22 +5414,22 @@ CQ
 ma
 ma
 ma
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+Ey
+eO
+eO
+eO
+Ft
+pP
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -5062,14 +5483,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-PI
-eO
-eO
-ma
-CQ
-CQ
+gg
+gg
+gg
+SS
+UW
+qc
+kX
+kX
 qc
 CQ
 CQ
@@ -5078,22 +5499,22 @@ CQ
 CQ
 CQ
 ma
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+jK
+ag
+eO
+eO
+ag
+jK
+al
+al
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -5146,13 +5567,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-PI
-eO
-eO
-ma
+oy
+gg
+gg
+gg
+UW
+UW
+qc
 qc
 xQ
 qc
@@ -5163,22 +5584,22 @@ CQ
 CQ
 CQ
 ma
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+jK
+jK
+jK
+jK
+jK
+jK
+VV
+al
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -5230,40 +5651,40 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-PI
-eO
-eO
-ma
+oy
+oy
+ZU
+ZU
+ZU
+UW
+UW
+qc
 CQ
 CQ
 qc
-CQ
+bW
 ot
 Az
 CQ
 CQ
 CQ
 ma
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+Xg
+jK
+oy
+oy
+mp
+mp
+oy
+tA
+xu
+xu
+hE
+xu
+Xs
+xu
+xu
 nn
 nn
 nn
@@ -5315,14 +5736,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-PI
-eO
-eO
-ma
+oy
+oy
+oy
+oy
+ZU
+bz
+UW
+qc
 CQ
 CQ
 xQ
@@ -5333,21 +5754,21 @@ CQ
 CQ
 CQ
 ma
-eO
-eO
 PI
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+PI
+jK
+oy
+mp
+Gj
+mp
+mp
+tA
+hE
+hE
+hE
+hE
+hE
+xu
 nn
 nn
 nn
@@ -5400,39 +5821,39 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-PI
-eO
-eO
-ma
+tP
+oy
+oy
+oy
+hy
+UW
+UW
+qc
 CQ
 CQ
 qc
-Az
-Az
+SP
+bT
 CQ
 CQ
 CQ
 CQ
 ma
 yg
-eO
-iq
-nn
-nn
-nn
-nn
-nn
+PI
+jK
+oy
+mp
+Gj
+Gj
+Gj
+xu
 hE
 hE
 hE
-nn
-nn
-nn
-nn
+hE
+hE
+xu
 nn
 nn
 nn
@@ -5485,14 +5906,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-PI
-eO
-eO
-ma
+tP
+tP
+oy
+oy
+iq
+UW
+UW
+qc
 qc
 VY
 qc
@@ -5511,13 +5932,13 @@ xq
 xq
 xq
 Ng
+Ng
+hE
+hE
+hE
+hE
+hE
 xu
-hE
-hE
-nn
-nn
-nn
-nn
 nn
 nn
 nn
@@ -5571,14 +5992,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-PI
-eO
-eO
-eO
-xQ
+tP
+tP
+iq
+iq
+UW
+UW
+UW
+EV
 jI
 sW
 qc
@@ -5587,22 +6008,22 @@ CQ
 CQ
 ma
 Dz
-Ey
-eO
-eO
-gg
+UR
 PI
 PI
+aq
+Ni
+mS
+mS
 PI
 PI
-PI
+aq
 hE
 hE
 hE
-nn
-nn
-nn
-nn
+xu
+xu
+xu
 nn
 nn
 nn
@@ -5656,36 +6077,36 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-PI
-eO
-eO
-eO
-xQ
+tP
+tP
+iq
+UW
+UW
+UW
+UW
+tx
 xO
-sW
+RC
 qc
-CQ
+Am
 AE
 CQ
 ma
 aq
-Ey
-eO
-eO
-gg
+yr
+PI
+PI
+aq
 PI
 PI
 PI
 PI
-PI
+mS
+aq
 hE
 hE
 hE
-nn
-nn
+hE
 nn
 nn
 nn
@@ -5742,12 +6163,12 @@ nn
 nn
 nn
 nn
-nn
-nn
-iq
-eO
-eO
-eO
+ZP
+Xj
+UW
+UW
+UW
+UW
 ma
 ma
 ma
@@ -5756,21 +6177,21 @@ CQ
 CQ
 CQ
 ma
-gg
-hC
-eO
-eO
+OQ
+OC
+PI
+BA
 Ng
 Ng
 xq
 xq
 xq
 Ng
-xu
+Ng
 hE
 hE
-nn
-nn
+hE
+hE
 nn
 nn
 nn
@@ -5827,14 +6248,14 @@ nn
 nn
 nn
 nn
-nn
-nn
+kH
 Xj
-eO
-eO
-eO
-Ey
-Oh
+UW
+UW
+UW
+UW
+kP
+Rw
 ma
 CQ
 CQ
@@ -5847,15 +6268,15 @@ qm
 sb
 cH
 Mb
-nn
-nn
-nn
-nn
+oy
+mp
+Gj
+Gj
 hE
 hE
 hE
-nn
-nn
+hE
+hE
 nn
 nn
 nn
@@ -5912,14 +6333,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-Xj
-eO
-eO
-eO
-Ey
-Dz
+YS
+iq
+BR
+gC
+UW
+UW
+kP
+Uf
 ma
 ma
 xQ
@@ -5927,19 +6348,19 @@ ma
 ma
 ma
 nJ
-ov
-MX
-MX
+Yr
+GE
+fK
 uW
 Mb
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+oy
+oy
+oy
+mp
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -5996,13 +6417,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-iq
-eO
-eO
-eO
+tP
+Ae
+Xj
+CP
+AS
+UW
+UW
 iq
 iq
 ma
@@ -6014,17 +6435,17 @@ GI
 GI
 GI
 MX
-MX
+GE
 tD
 Mb
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+oy
+oy
+oy
+oy
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6081,15 +6502,15 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
+tP
+ZP
 Xj
-eO
-eO
-eO
-Ey
-Dz
+CP
+AS
+UW
+UW
+kP
+Uf
 ma
 CQ
 CQ
@@ -6099,17 +6520,17 @@ Mb
 Mb
 cH
 cH
-qm
+hr
 cH
 Mb
 Mb
 Mb
 Mb
-nn
-nn
-nn
-nn
-nn
+oy
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6166,15 +6587,15 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-Xj
-eO
-eO
-eO
-Ey
-Dz
+tP
+tP
+iq
+CP
+AS
+UW
+UW
+kP
+mE
 ma
 ma
 ma
@@ -6184,17 +6605,17 @@ SN
 SN
 NO
 et
-et
+GU
 et
 Mb
 qE
 DL
 Mb
 Mb
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6252,13 +6673,13 @@ nn
 nn
 nn
 nn
-nn
-nn
+oy
 iq
-eO
-eO
+iq
+fd
+UW
 JZ
-Ng
+ZU
 iq
 iq
 ef
@@ -6270,16 +6691,16 @@ GI
 SN
 et
 et
-et
+UP
 KW
 Iq
 PU
 Go
 Mb
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6336,13 +6757,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
+oy
+oy
+oy
 iq
-eO
-eO
-eO
+UW
+UW
+UW
 iB
 Eq
 Fz
@@ -6361,9 +6782,9 @@ TB
 gP
 Mb
 Mb
-nn
-nn
-nn
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6421,13 +6842,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
+oy
+oy
+oy
 iq
-eO
-eO
-eO
+UW
+UW
+SS
 iB
 BW
 uw
@@ -6445,10 +6866,10 @@ Mb
 Mb
 Mb
 Mb
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6507,20 +6928,20 @@ nn
 nn
 nn
 nn
-nn
-nn
+oy
+oy
 iq
 iq
 hC
 hC
-Ng
+ZU
 bE
 Ce
 Eq
 ef
 ef
-ag
-hh
+qn
+tP
 tP
 oy
 oy
@@ -6528,12 +6949,12 @@ oy
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
-nn
+tP
+tP
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6592,20 +7013,20 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
+oy
+oy
+oy
 oy
 oy
 oy
 Hm
-Eq
+Vu
 PM
 Eq
 ar
 Eq
 qn
-hh
+tP
 tP
 oy
 oy
@@ -6614,11 +7035,11 @@ oy
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
+tP
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6678,12 +7099,12 @@ nn
 nn
 nn
 nn
-nn
 oy
 oy
 oy
-kP
-gZ
+oy
+tP
+DB
 Eq
 bC
 zT
@@ -6697,13 +7118,13 @@ oy
 oy
 oy
 oy
-oy
-oy
-oy
-nn
-nn
-nn
-nn
+xu
+xu
+xu
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6782,13 +7203,13 @@ oy
 oy
 mp
 mp
-mp
-mp
-mp
-nn
-nn
-nn
-nn
+sr
+al
+sr
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6849,11 +7270,11 @@ nn
 nn
 nn
 oy
-nn
+oy
 oy
 tP
-hh
-Ns
+tP
+tP
 Eq
 wZ
 qI
@@ -6867,15 +7288,15 @@ oy
 Gj
 Gj
 Gj
-oy
-mp
-oy
-nn
-nn
-nn
-nn
-nn
-nn
+xu
+al
+xu
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -6933,11 +7354,11 @@ nn
 nn
 nn
 nn
-nn
-nn
+oy
+oy
 oy
 tP
-Wb
+tR
 gZ
 Eq
 Eq
@@ -6952,15 +7373,15 @@ mp
 mp
 Gj
 mp
-oy
-oy
-oy
-nn
-nn
-nn
-nn
-nn
-nn
+xu
+xu
+xu
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7019,14 +7440,14 @@ nn
 nn
 nn
 nn
-nn
+oy
 oy
 oy
 tP
 oy
 oi
 Eq
-Eq
+bs
 Eq
 ef
 Nz
@@ -7040,12 +7461,12 @@ mp
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7104,8 +7525,8 @@ nn
 nn
 nn
 nn
-nn
-nn
+oy
+oy
 oy
 oy
 oy
@@ -7113,7 +7534,7 @@ oy
 iI
 Wo
 iE
-iI
+PQ
 oy
 oy
 oy
@@ -7124,13 +7545,13 @@ oy
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7189,30 +7610,30 @@ nn
 nn
 nn
 nn
-nn
-nn
 oy
 oy
 oy
 oy
-hh
+oy
+oy
+fm
 Wo
 iE
-Wb
+hh
 oy
 oy
 oy
 oy
-nn
+hE
 oy
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7280,24 +7701,24 @@ nn
 nn
 oy
 oy
-Hm
+bl
 Jc
-Jc
-Hm
+la
+bl
 oy
 oy
 oy
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7362,27 +7783,27 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7447,27 +7868,27 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7532,27 +7953,27 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -7617,16 +8038,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -7702,16 +8123,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -7787,16 +8208,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -7872,16 +8293,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -7957,16 +8378,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8042,16 +8463,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8127,16 +8548,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8212,16 +8633,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8297,16 +8718,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8382,16 +8803,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
@@ -8467,16 +8888,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+kc
 nn
 nn
 nn
