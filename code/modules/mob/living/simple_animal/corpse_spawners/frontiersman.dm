@@ -166,7 +166,7 @@
 	outfit = /datum/outfit/frontier/warlord
 
 /datum/outfit/frontier/warlord
-	name = "Frontiersman Officer Corpse"
+	name = "Frontiersman Warlord Corpse"
 	uniform = /obj/item/clothing/under/frontiersmen/admiral
 	suit = /obj/item/clothing/suit/armor/marine/frontier
 	shoes = /obj/item/clothing/shoes/combat
