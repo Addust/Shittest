@@ -52,3 +52,8 @@
 				/obj/item/borg/upgrade/modkit/aoe/mobs = 6,
 				/obj/item/borg/upgrade/modkit/aoe/turfs = 6,
 				/obj/item/borg/upgrade/modkit/trigger_guard = 6)
+
+/mob/living/simple_animal/hostile/abandoned_minebot/frontiersman
+	name = "hijacked minebot"
+	desc = "A simple mining robot originally manufactured en-masse by Makosso-Warra to assist N+S in excavation operations. This one, however, seems to have been commandeered by the New Frontiersmen, and put towards defending their installations."
+	faction = list(FACTION_ANTAG_FRONTIERSMEN)
