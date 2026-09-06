@@ -619,7 +619,7 @@
 
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/Aggro()
 	..()
-	say(pick(helpcall)) //doesnt summon backup they just Yell at you
+	say(pick(shout)) //doesnt summon backup they just Yell at you
 
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower
 	name = "Frontiersman Repressor"

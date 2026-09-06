@@ -168,7 +168,7 @@
 /datum/outfit/frontier/warlord
 	name = "Frontiersman Warlord Corpse"
 	uniform = /obj/item/clothing/under/frontiersmen/admiral
-	suit = /obj/item/clothing/suit/armor/marine/frontier
+	suit = /obj/item/clothing/suit/armor/vest/marine/frontier
 	shoes = /obj/item/clothing/shoes/combat
 	ears = /obj/item/radio/headset/alt
 	head = /obj/item/clothing/head/frontier/peaked/admiral

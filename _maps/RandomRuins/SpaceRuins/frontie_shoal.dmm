@@ -23,6 +23,15 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"aZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "bl" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/middle/hangar)
@@ -73,7 +82,7 @@
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "df" = (
-/turf/open/floor/plating/asteroid/smoothed,
+/turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "dn" = (
 /obj/effect/turf_decal/rechargefloor,
@@ -97,10 +106,28 @@
 	},
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"fl" = (
+/obj/effect/decal/cleanable/dirt{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry/neutered,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "fm" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/plating/asteroid/smoothed,
 /area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"fD" = (
+/obj/structure/girder{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	dir = 4
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "fK" = (
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
 /obj/structure/cable{
@@ -185,6 +212,18 @@
 	},
 /turf/open/floor/plating/asteroid/smoothed,
 /area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"jt" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/robot_debris/limb{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "jI" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
@@ -192,6 +231,26 @@
 "jK" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"jQ" = (
+/obj/structure/catwalk/over,
+/obj/item/wallframe/advanced_airlock_controller{
+	pixel_x = 26;
+	pixel_y = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
+"jT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "kb" = (
 /obj/structure/grille,
 /obj/structure/window/plasma/reinforced/plastitanium,
@@ -219,6 +278,15 @@
 "ma" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"mk" = (
+/obj/effect/decal/cleanable/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 2
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "mp" = (
 /turf/open/floor/plating/asteroid/smoothed/airless,
 /area/asteroid)
@@ -235,6 +303,21 @@
 "mS" = (
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"mZ" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/stand_clear{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "nn" = (
 /turf/template_noop,
 /area/template_noop)
@@ -291,6 +374,12 @@
 	},
 /turf/open/floor/plating/asteroid/smoothed,
 /area/asteroid)
+"qu" = (
+/obj/effect/decal/cleanable/wrapping{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/off,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "qB" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
@@ -307,6 +396,10 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"qV" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "rU" = (
 /obj/effect/turf_decal/rechargefloor,
 /mob/living/simple_animal/hostile/automated/hopper/frontier{
@@ -317,6 +410,17 @@
 "rX" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"sa" = (
+/obj/structure/girder{
+	dir = 4
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	dir = 4
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "sb" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "frontie_shoal_core_engilock";
@@ -381,6 +485,24 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"vi" = (
+/obj/effect/decal/cleanable/glass{
+	dir = 2
+	},
+/turf/open/floor/circuit/red/off,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"vv" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg2";
+	initial_gas_mix = "o2=22;n2=82;TEMP=503.15"
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"vF" = (
+/obj/effect/decal/cleanable/shreds{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "wZ" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "xltrails_2";
@@ -432,6 +554,16 @@
 /obj/structure/poddoor_assembly/shutters,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"yO" = (
+/obj/effect/decal/cleanable/dirt{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "ze" = (
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
@@ -440,7 +572,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "zV" = (
-/turf/closed/mineral/random/low_chance,
+/turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Ae" = (
 /obj/effect/turf_decal/miskilamo_small/left{
@@ -448,6 +580,18 @@
 	},
 /turf/open/floor/engine/hull/interior,
 /area/asteroid)
+"Ak" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 2;
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Am" = (
 /obj/machinery/computer/security/telescreen/entertainment/wall/directional/north,
 /turf/open/floor/wood,
@@ -456,8 +600,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "Aw" = (
-/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry/neutered,
-/turf/template_noop,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Az" = (
 /obj/structure/table/wood/reinforced,
@@ -552,6 +695,9 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"Fa" = (
+/turf/closed/wall/r_wall,
+/area/asteroid)
 "Ft" = (
 /obj/structure/hazard/floor/burglar_alarm{
 	id = "frontie_shoal_alarms"
@@ -562,6 +708,15 @@
 /mob/living/simple_animal/hostile/poison/giant_spider,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"FX" = (
+/obj/structure/railing{
+	dir = 2
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 2
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Gj" = (
 /turf/open/space/basic,
 /area/space)
@@ -594,6 +749,26 @@
 "Hm" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"Hv" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 0;
+	dir = 4;
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Iq" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -615,10 +790,35 @@
 /obj/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"IW" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "Jc" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/middle/hangar)
+"Ji" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 2
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"JE" = (
+/obj/structure/railing{
+	dir = 2
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 2
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "JZ" = (
 /obj/machinery/button/door{
 	dir = 1;
@@ -639,6 +839,18 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"KN" = (
+/obj/effect/decal/cleanable/dirt/dust{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "KW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -817,6 +1029,11 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"UV" = (
+/turf/template_noop{
+	dir = 4
+	},
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "UW" = (
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
@@ -879,6 +1096,12 @@
 	},
 /turf/open/floor/engine/hull/interior,
 /area/asteroid)
+"YX" = (
+/obj/item/stack/ore/salvage/scrapmetal{
+	dir = 4
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "ZP" = (
 /turf/open/floor/engine/hull/interior,
 /area/asteroid)
@@ -5241,14 +5464,14 @@ nn
 nn
 nn
 nn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-nn
+UV
+UV
+sa
+Aw
+Aw
+Aw
+Aw
+Aw
 nn
 iq
 UW
@@ -5326,14 +5549,14 @@ nn
 nn
 nn
 nn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-nn
+UV
+IW
+vF
+FX
+qu
+fl
+mk
+Aw
 nn
 ZU
 UW
@@ -5411,14 +5634,14 @@ nn
 nn
 nn
 nn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ZU
+UV
+UV
+KN
+JE
+vi
+yO
+Ji
+Aw
 ZU
 ZU
 UW
@@ -5496,14 +5719,14 @@ nn
 nn
 nn
 nn
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-gg
+YX
+vv
+jt
+mZ
+Ak
+jT
+Hv
+aZ
 gg
 gg
 SS
@@ -5585,10 +5808,10 @@ aa
 aa
 aa
 Aw
-aa
-aa
+Aw
+qV
 zV
-gg
+fD
 gg
 ZU
 UW
@@ -5666,15 +5889,15 @@ nn
 nn
 nn
 nn
+nn
 aa
 aa
 aa
-aa
-aa
+df
+df
 zV
-zV
-oy
-oy
+Fa
+Fa
 ZU
 UW
 UW
@@ -5751,12 +5974,12 @@ nn
 nn
 nn
 nn
+nn
 aa
 aa
 aa
-aa
-aa
-zV
+df
+df
 zV
 oy
 oy
@@ -5836,11 +6059,11 @@ nn
 nn
 nn
 nn
+nn
 aa
 aa
 aa
-aa
-aa
+df
 df
 zV
 oy
@@ -5921,13 +6144,13 @@ nn
 nn
 nn
 nn
+nn
 aa
 aa
-aa
-aa
-aa
-df
-df
+zV
+zV
+zV
+zV
 oy
 oy
 iq
@@ -6006,13 +6229,13 @@ nn
 nn
 nn
 nn
+nn
 aa
 aa
-aa
-aa
-aa
-aa
-df
+nn
+nn
+nn
+tP
 tP
 iq
 iq
@@ -6092,8 +6315,8 @@ nn
 nn
 nn
 nn
-nn
-nn
+aa
+aa
 nn
 nn
 nn
@@ -6791,7 +7014,7 @@ ef
 Eq
 SN
 GI
-GI
+jQ
 LE
 SN
 et
