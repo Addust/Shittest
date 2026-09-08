@@ -409,6 +409,9 @@
 /area/ruin/space/has_grav/frontie_shoal/middle/cargo
 	name = "Frontiersmen Shoal Middle Cargo"
 
+/area/ruin/space/has_grav/frontie_shoal/middle/power
+	name = "Frontiersmen Shoal Middle Power Station"
+
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury
 	name = "Frontiersmen Shoal Middle Armoury"
 	icon_state = "red"
