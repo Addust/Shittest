@@ -41,6 +41,9 @@
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "bz" = (
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
 "bC" = (
@@ -78,6 +81,12 @@
 "ci" = (
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"cy" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
 "cH" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
@@ -91,6 +100,18 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"dp" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
+"dN" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
 "ef" = (
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
@@ -105,6 +126,15 @@
 "eO" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"eQ" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "fd" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 6
@@ -364,6 +394,12 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/middle/power)
+"os" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
 "ot" = (
 /mob/living/simple_animal/hostile/human/frontier/ranged/officer/e40/internals/warlord{
 	weapon_drop_chance = 100
@@ -385,9 +421,23 @@
 /obj/item/tank/jetpack/improvised,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"pz" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "pP" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
+"pW" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
 "qc" = (
 /turf/closed/wall/r_wall,
@@ -398,6 +448,9 @@
 	dir = 4
 	},
 /obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "qn" = (
@@ -428,6 +481,9 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"qN" = (
+/turf/closed/wall/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/shipping)
 "qU" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 8
@@ -470,9 +526,8 @@
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
 "sr" = (
-/obj/structure/catwalk/over,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/frontie_shoal/middle/maints)
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/frontie_shoal/middle/cargo)
 "sG" = (
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/wasp/internals/neutered,
 /turf/open/floor/plasteel/tech,
@@ -505,8 +560,8 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
 "tA" = (
-/turf/closed/wall/r_wall/rust,
-/area/asteroid)
+/turf/template_noop,
+/area/ruin/space/has_grav/frontie_shoal/middle/shipping)
 "tD" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable,
@@ -515,6 +570,18 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"tH" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 1
+	},
+/turf/open/floor/plating/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
+"tL" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "tP" = (
 /turf/open/floor/plating/asteroid/smoothed,
 /area/asteroid)
@@ -525,6 +592,9 @@
 "uw" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gib5-old"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
@@ -558,17 +628,19 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"wm" = (
+/obj/structure/cable{
+	icon_state = "2-9"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "wq" = (
 /mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy/screaming/mower/sentry/neutered,
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
 "wA" = (
-/obj/machinery/door/airlock/hatch{
-	dir = 4;
-	name = "Chamber Access"
-	},
-/turf/open/floor/plasteel/tech/grid,
-/area/ruin/space/has_grav/frontie_shoal/middle/power)
+/turf/template_noop,
+/area/ruin/space/has_grav/frontie_shoal/middle/cargo)
 "wZ" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "xltrails_2";
@@ -614,8 +686,17 @@
 	power_flags = 2;
 	id = "shoal_core_thebugs"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"yh" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "yr" = (
 /obj/structure/poddoor_assembly/shutters,
 /turf/open/floor/plasteel/tech/grid,
@@ -630,6 +711,9 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"yW" = (
+/turf/closed/wall/rust,
+/area/ruin/space/has_grav/frontie_shoal/middle/cargo)
 "ze" = (
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
@@ -722,14 +806,29 @@
 	icon_state = "xltrails_2";
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"Cq" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "CP" = (
 /turf/open/floor/plastic,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
 "CQ" = (
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"Df" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "Dt" = (
 /obj/effect/turf_decal/rechargefloor,
 /mob/living/simple_animal/hostile/automated/quadrotor/frontiersman{
@@ -770,6 +869,13 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"EH" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "EV" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "frontie_shoal_core_panicroom"
@@ -788,6 +894,9 @@
 /area/ruin/space/has_grav/frontie_shoal/core/south)
 "Fz" = (
 /mob/living/simple_animal/hostile/poison/giant_spider,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "FD" = (
@@ -814,6 +923,17 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"Gu" = (
+/obj/machinery/door/poddoor{
+	id = "frontie_shoal_core_atmoslock"
+	},
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/catwalk/over,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "GE" = (
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
 /obj/structure/cable{
@@ -887,6 +1007,12 @@
 	icon_state = "platingdmg3"
 	},
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"Jb" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "Jc" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
@@ -972,6 +1098,16 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"MI" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 4;
+	name = "Chamber Access"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/space/has_grav/frontie_shoal/middle/power)
 "MX" = (
 /obj/effect/turf_decal/corner_techfloor_gray/diagonal,
 /obj/structure/cable{
@@ -996,6 +1132,12 @@
 "Nz" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
+"NA" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "NH" = (
 /obj/machinery/suit_storage_unit/inherit/industrial,
 /obj/item/clothing/suit/space/hardsuit/security/independent/frontier,
@@ -1015,6 +1157,9 @@
 /mob/living/basic/hivebot/strong/frontier,
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/south)
+"Ot" = (
+/turf/closed/mineral/random/low_chance,
+/area/ruin/space/has_grav/frontie_shoal/middle/shipping)
 "OC" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
@@ -1029,6 +1174,9 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "xltrails_2";
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
@@ -1057,6 +1205,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/engine)
+"Qe" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Rw" = (
 /obj/effect/turf_decal/rechargefloor,
 /mob/living/basic/hivebot/strong/frontier,
@@ -1068,6 +1222,12 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/core/command)
+"RF" = (
+/obj/structure/cable{
+	icon_state = "6-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/north)
 "RL" = (
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/frontie_shoal/middle/power)
@@ -1090,6 +1250,12 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"Tb" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "TB" = (
 /obj/effect/turf_decal/corner_techfloor_grid{
 	dir = 6
@@ -1146,8 +1312,17 @@
 "UW" = (
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"Vc" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/space/has_grav/frontie_shoal/core/south)
 "Vu" = (
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/atmos)
 "Vy" = (
@@ -1156,6 +1331,9 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/middle/armoury)
+"VA" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/frontie_shoal/middle/shipping)
 "VV" = (
 /turf/closed/wall/r_wall/rust/yesdiag,
 /area/ruin/space/has_grav/frontie_shoal/middle/maints)
@@ -1182,14 +1360,33 @@
 /obj/structure/window/plasma/reinforced/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/frontie_shoal/core/north)
+"Xl" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/space/has_grav/frontie_shoal/core/engine)
 "Xo" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
+"Xp" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/frontie_shoal/middle/cargo)
 "Xs" = (
 /turf/closed/wall/r_wall/rust,
 /area/ruin/space/has_grav/frontie_shoal/middle/maints)
 "Yg" = (
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/space/has_grav/frontie_shoal/core/gantry)
 "Yn" = (
@@ -5423,19 +5620,19 @@ nn
 nn
 iq
 UW
-UW
-UW
-As
-ze
-ze
+NA
+tL
+Df
+Tb
+Tb
 Yg
-ze
-ze
-ze
-ze
-As
-PI
-PI
+Tb
+Tb
+Tb
+Tb
+Df
+Qe
+Cq
 PI
 PI
 jK
@@ -5508,7 +5705,7 @@ nn
 nn
 iq
 UW
-UW
+Jb
 iq
 iq
 ma
@@ -5520,7 +5717,7 @@ ma
 ma
 jK
 jK
-PI
+Vc
 PI
 jK
 jK
@@ -5593,7 +5790,7 @@ Aw
 nn
 iq
 UW
-UW
+Jb
 kP
 mE
 ma
@@ -5605,7 +5802,7 @@ CQ
 ma
 Oh
 UR
-PI
+Vc
 iy
 jK
 aV
@@ -5678,7 +5875,7 @@ Aw
 nn
 ZU
 UW
-UW
+Jb
 kP
 Uf
 ma
@@ -5690,7 +5887,7 @@ CQ
 ma
 dn
 UR
-PI
+Vc
 Ni
 Ey
 eO
@@ -5763,7 +5960,7 @@ Aw
 ZU
 ZU
 UW
-UW
+Jb
 qc
 qc
 ma
@@ -5775,7 +5972,7 @@ CQ
 ma
 ma
 ma
-PI
+Vc
 PI
 Ey
 eO
@@ -5848,7 +6045,7 @@ aZ
 gg
 gg
 SS
-UW
+Jb
 qc
 kX
 kX
@@ -5860,7 +6057,7 @@ CQ
 CQ
 CQ
 ma
-PI
+Vc
 PI
 jK
 ag
@@ -5933,7 +6130,7 @@ fD
 gg
 ZU
 UW
-UW
+Jb
 qc
 qc
 xQ
@@ -5945,8 +6142,8 @@ CQ
 CQ
 CQ
 ma
-PI
-PI
+pW
+pz
 jK
 jK
 jK
@@ -6018,7 +6215,7 @@ Fa
 Fa
 ZU
 UW
-UW
+Jb
 qc
 CQ
 CQ
@@ -6030,7 +6227,7 @@ CQ
 CQ
 CQ
 ma
-PI
+Vc
 Xg
 jK
 oy
@@ -6038,7 +6235,7 @@ oy
 mp
 mp
 oy
-tA
+Xs
 xu
 xu
 hE
@@ -6103,7 +6300,7 @@ oy
 oy
 ZU
 bz
-UW
+eQ
 qc
 CQ
 CQ
@@ -6115,7 +6312,7 @@ CQ
 CQ
 CQ
 ma
-PI
+Vc
 PI
 jK
 oy
@@ -6123,7 +6320,7 @@ mp
 Gj
 mp
 mp
-tA
+Xs
 hE
 hE
 hE
@@ -6188,7 +6385,7 @@ oy
 oy
 hy
 UW
-UW
+Jb
 qc
 CQ
 CQ
@@ -6273,7 +6470,7 @@ oy
 oy
 iq
 UW
-UW
+Jb
 qc
 qc
 VY
@@ -6285,7 +6482,7 @@ qc
 ma
 ma
 ma
-Ue
+EH
 Ue
 Ng
 Ng
@@ -6358,7 +6555,7 @@ tP
 iq
 iq
 UW
-UW
+Jb
 UW
 EV
 jI
@@ -6370,7 +6567,7 @@ CQ
 ma
 Dz
 UR
-PI
+Vc
 PI
 aq
 Ni
@@ -6443,7 +6640,7 @@ tP
 iq
 UW
 UW
-UW
+Jb
 UW
 tx
 xO
@@ -6455,7 +6652,7 @@ CQ
 ma
 aq
 yr
-PI
+Vc
 PI
 aq
 PI
@@ -6528,7 +6725,7 @@ ZP
 Xj
 UW
 UW
-UW
+Jb
 UW
 ma
 ma
@@ -6540,7 +6737,7 @@ CQ
 ma
 OQ
 OC
-PI
+Vc
 BA
 Ng
 Ng
@@ -6613,7 +6810,7 @@ kH
 Xj
 UW
 UW
-UW
+Jb
 UW
 kP
 Rw
@@ -6633,7 +6830,7 @@ oy
 mp
 Gj
 Gj
-hE
+xu
 hE
 hE
 hE
@@ -6698,7 +6895,7 @@ YS
 iq
 BR
 gC
-UW
+Jb
 UW
 kP
 Uf
@@ -6710,7 +6907,7 @@ ma
 ma
 nJ
 Yr
-GE
+Xl
 fK
 uW
 Mb
@@ -6718,7 +6915,7 @@ oy
 oy
 oy
 mp
-hE
+xu
 hE
 hE
 hE
@@ -6783,7 +6980,7 @@ Ae
 Xj
 CP
 AS
-UW
+Jb
 UW
 iq
 iq
@@ -6803,9 +7000,7 @@ oy
 oy
 oy
 oy
-hE
-hE
-hE
+xu
 hE
 hE
 hE
@@ -6818,6 +7013,8 @@ nI
 nI
 nI
 nI
+nn
+nn
 nn
 nn
 nn
@@ -6868,7 +7065,7 @@ ZP
 Xj
 CP
 AS
-UW
+Jb
 UW
 kP
 sM
@@ -6894,8 +7091,6 @@ hE
 hE
 hE
 hE
-hE
-hE
 nn
 nn
 nI
@@ -6903,6 +7098,8 @@ FD
 FD
 FD
 nI
+nn
+nn
 nn
 nn
 nn
@@ -6953,7 +7150,7 @@ tP
 iq
 CP
 AS
-UW
+Jb
 UW
 kP
 mE
@@ -6976,8 +7173,6 @@ Mb
 hE
 hE
 hE
-hE
-hE
 nI
 nI
 nI
@@ -6988,6 +7183,8 @@ ok
 hZ
 ok
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7038,7 +7235,7 @@ oy
 iq
 iq
 fd
-UW
+RF
 JZ
 ZU
 iq
@@ -7061,8 +7258,6 @@ Mb
 hE
 hE
 hE
-hE
-hE
 RL
 RL
 Yn
@@ -7070,9 +7265,11 @@ RL
 Oe
 Oe
 Oe
-Oe
+tH
 Oe
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7124,9 +7321,9 @@ oy
 iq
 UW
 UW
-UW
-iB
-Eq
+wm
+Gu
+yh
 Fz
 ef
 Eq
@@ -7146,8 +7343,6 @@ Mb
 hE
 hE
 hE
-hE
-hE
 nI
 Oe
 Oe
@@ -7155,9 +7350,11 @@ nI
 qU
 va
 Oe
-Oe
-Oe
+cy
+os
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7231,8 +7428,6 @@ hE
 hE
 hE
 hE
-hE
-hE
 nI
 nI
 nI
@@ -7240,9 +7435,11 @@ nI
 AM
 fz
 Oe
-Oe
+dp
 Oe
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7317,17 +7514,17 @@ hE
 hE
 hE
 hE
-hE
-hE
 nn
 nn
 nI
 AM
 Hl
 Oe
-Oe
+dp
 Oe
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7402,18 +7599,18 @@ hE
 hE
 hE
 hE
-hE
-hE
 nn
 iX
 iX
 nI
 nI
-FD
+dN
 nI
 nI
 nI
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7479,26 +7676,26 @@ oy
 oy
 oy
 oy
+oy
 xu
 xu
-xu
 hE
 hE
 hE
 hE
-nn
-nn
 nn
 nn
 iX
 UE
 UE
 UE
-wA
+MI
 UE
 UE
 UE
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7564,15 +7761,13 @@ oy
 oy
 mp
 mp
-sr
+xu
+xu
 al
-sr
 hE
 hE
 hE
 hE
-nn
-nn
 nn
 nn
 iX
@@ -7584,6 +7779,8 @@ DD
 DD
 UE
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7623,13 +7820,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
 oy
 oy
 oy
@@ -7651,14 +7848,12 @@ Gj
 Gj
 xu
 al
-xu
+al
 hE
 hE
 hE
 hE
 hE
-hE
-nn
 nn
 nI
 UE
@@ -7669,6 +7864,8 @@ HC
 iH
 UE
 iX
+nn
+nn
 nn
 nn
 nn
@@ -7708,13 +7905,13 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
 oy
 oy
 oy
@@ -7743,8 +7940,6 @@ hE
 hE
 hE
 hE
-nn
-nn
 iX
 UE
 iH
@@ -7754,6 +7949,8 @@ HC
 eG
 UE
 iX
+nn
+nn
 nn
 nn
 nn
@@ -7793,14 +7990,14 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
 oy
 oy
 oy
@@ -7828,8 +8025,6 @@ hE
 hE
 hE
 hE
-nn
-nn
 iX
 UE
 iH
@@ -7839,6 +8034,8 @@ HC
 eG
 UE
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7878,15 +8075,15 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-oy
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+Ot
 oy
 oy
 oy
@@ -7913,8 +8110,6 @@ hE
 hE
 hE
 hE
-nn
-nn
 nI
 UE
 DD
@@ -7924,6 +8119,8 @@ DD
 DD
 UE
 nI
+nn
+nn
 nn
 nn
 nn
@@ -7963,16 +8160,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-oy
-oy
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+Ot
+qN
 oy
 oy
 oy
@@ -7995,9 +8192,7 @@ hE
 hE
 hE
 hE
-nn
-nn
-nn
+hE
 nn
 nn
 nI
@@ -8009,6 +8204,8 @@ UE
 UE
 UE
 iX
+nn
+nn
 nn
 nn
 nn
@@ -8048,18 +8245,18 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+qN
+qN
+qN
 oy
 oy
 bl
@@ -8080,9 +8277,7 @@ hE
 hE
 hE
 hE
-nn
-nn
-nn
+hE
 nn
 nn
 nI
@@ -8094,6 +8289,8 @@ iX
 iX
 iX
 nI
+nn
+nn
 nn
 nn
 nn
@@ -8133,17 +8330,17 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+qN
 kc
 kc
 kc
@@ -8218,17 +8415,17 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
 kc
 kc
 kc
@@ -8303,17 +8500,17 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+tA
+qN
 kc
 kc
 kc
@@ -8388,17 +8585,17 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+VA
+VA
+tA
+tA
+tA
+sr
+Xp
+wA
+Xp
+Xp
+yW
 kc
 kc
 kc
@@ -8409,13 +8606,13 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8474,16 +8671,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+VA
+tA
+tA
+tA
+sr
+wA
+wA
+wA
+wA
+Xp
 kc
 kc
 kc
@@ -8494,12 +8691,12 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8559,16 +8756,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+VA
+tA
+tA
+tA
+sr
+wA
+wA
+wA
+wA
+wA
 kc
 kc
 kc
@@ -8579,10 +8776,10 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8644,16 +8841,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+VA
+tA
+tA
+tA
+sr
+wA
+wA
+wA
+wA
+wA
 kc
 kc
 kc
@@ -8664,10 +8861,10 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
-nn
+hE
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8729,16 +8926,16 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
-nn
+VA
+VA
+VA
+VA
+sr
+wA
+wA
+wA
+wA
+wA
 kc
 kc
 kc
@@ -8749,9 +8946,9 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8818,12 +9015,12 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
+sr
+wA
+wA
+wA
+wA
+wA
 kc
 kc
 kc
@@ -8834,9 +9031,9 @@ kc
 kc
 kc
 kc
-nn
-nn
-nn
+hE
+hE
+hE
 nn
 nn
 nn
@@ -8903,12 +9100,12 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
-nn
+sr
+sr
+wA
+wA
+wA
+Xp
 kc
 kc
 kc
@@ -8918,9 +9115,9 @@ kc
 kc
 kc
 kc
-kc
-nn
-nn
+bl
+hE
+hE
 nn
 nn
 nn
@@ -8989,11 +9186,11 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
-nn
-nn
+sr
+sr
+sr
+wA
+yW
 kc
 kc
 kc
@@ -9003,9 +9200,9 @@ kc
 kc
 kc
 kc
-kc
-nn
-nn
+bl
+hE
+hE
 nn
 nn
 nn
@@ -9076,9 +9273,10 @@ nn
 nn
 nn
 nn
-nn
-nn
-nn
+sr
+sr
+sr
+bl
 kc
 kc
 kc
@@ -9087,8 +9285,7 @@ kc
 kc
 kc
 kc
-kc
-kc
+bl
 nn
 nn
 nn
@@ -9164,6 +9361,7 @@ nn
 nn
 nn
 nn
+bl
 kc
 kc
 kc
@@ -9172,8 +9370,7 @@ kc
 kc
 kc
 kc
-kc
-kc
+bl
 nn
 nn
 nn
@@ -9249,16 +9446,16 @@ nn
 nn
 nn
 nn
+bl
+bl
 kc
 kc
 kc
 kc
 kc
 kc
-kc
-kc
-kc
-kc
+bl
+bl
 nn
 nn
 nn
