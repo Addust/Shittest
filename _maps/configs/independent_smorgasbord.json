@@ -1,0 +1,141 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "The Smorgasbord",
+	"faction": "/datum/faction/independent",
+	"prefix": "SV",
+	"manufacturer": "Miskilamo Spacefaring",
+	"namelists": ["CRUISE", "NATURAL", "PGF", "GORLEX", "NATURAL_AGGRESSIVE", "WEAPONS", "BEASTS", "MAKOSSO-WARRA", "SPACE", "MYTHOLOGICAL"],
+	"map_short_name": "Smorgasbord",
+	"map_path": "_maps/shuttles/independent/smorgasbord.dmm",
+	"description": "The Smorgasbord is the possible worst thing Miskilamo Spacefaring has ever done. After welding together wreckages of ships from various groups, many of them deeply at odds with each other, they then elected to offer space on this absolute god-damn mistake to these factions. Out of what one can only assume to be actual insanity, most of these groups accepted; a delegation of Cybersun and M-W medical techs, small teams from both a Ramzi and Frontiersmen cell (who have agreed to desist from piracy while onboard in exchange for a pardon for crimes committed against CLIP), forces from both the NGR and the PGF, an element of the Gorlex Hardliners, and an Inteq element hired by the Smorgasbord's coordinator to keep order onboard. Good thing this ship was just a rumour-turned-sitcom... right?",
+	"tags": [
+		"RP Focus",
+		"Service",
+		"Specialist"
+	],
+	"tranist_x_offset": -35,
+	"tranist_y_offset": -25,
+	"starting_funds": 15000,
+	"limit": 1,
+	"job_slots": {
+		"Coordinator": {
+			"outfit": "/datum/outfit/job/independent/captain/manager",
+			"slots": 1,
+			"officer": true
+		},
+		"Civilian Cook": {
+			"outfit": "/datum/outfit/job/independent/cook",
+			"slots": 1
+		},
+		"Civilian Cleaner": {
+			"outfit": "/datum/outfit/job/independent/assistant/waiter",
+			"slots": 1
+		},
+		"NGR Lieutenant": {
+			"outfit": "/datum/outfit/job/syndicate/hos/ngr",
+			"officer": true,
+			"slots": 1
+		},
+		"NGR Operative": {
+			"outfit": "/datum/outfit/job/syndicate/security/ngr",
+			"slots": 1
+		},
+		"NGR Mechanic": {
+			"outfit": "/datum/outfit/job/syndicate/engineer/ngr/stripped",
+			"slots": 1
+		},
+		"NGR Wrecker": {
+			"outfit": "/datum/outfit/job/syndicate/miner/ngr",
+			"slots":1
+		},
+		"PGF Marine Squad Leader": {
+			"outfit": "/datum/outfit/job/gezena/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"PGF Marine": {
+			"outfit": "/datum/outfit/job/gezena/security",
+			"slots": 2
+		},
+		"Ramzi Sweeper Lead": {
+			"outfit": "/datum/outfit/job/ramzi/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"Ramzi Sweeper": {
+			"outfit": "/datum/outfit/job/ramzi/operative",
+			"slots": 1
+		},
+		"Frontiersman Smuggler Boss": {
+			"outfit": "/datum/outfit/job/frontiersmen/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"Frontiersman Boarder": {
+			"outfit": "/datum/outfit/job/frontiersmen/security",
+			"slots": 2
+		},
+		"N+S Technician": {
+			"outfit": "/datum/outfit/job/warra/cargo_tech",
+			"slots": 1
+		},
+		"Vigilitas Security Guard": {
+			"outfit": "/datum/outfit/job/warra/security/empty",
+			"slots": 1
+		},
+		"Makosso-Warra Medical Director": {
+			"outfit": "/datum/outfit/job/warra/cmo/empty",
+			"officer": true,
+			"slots": 1
+		},
+		"Makoso-Warra Doctor": {
+			"outfit": "/datum/outfit/job/warra/doctor",
+			"slots": 1
+		},
+		"Hardliner Sergeant": {
+			"outfit": "/datum/outfit/job/syndicate/hos/gorlex",
+			"officer": true,
+			"slots": 1
+		},
+		"Hardliner Wrecker": {
+			"outfit": "/datum/outfit/job/syndicate/miner/gorlex/stripped",
+			"slots": 2
+		},
+		"Cybersun Biodynamics Medical Director": {
+			"outfit": "/datum/outfit/job/cybersun/officer/cmo",
+			"officer": true,
+			"slots": 1
+		},
+		"Cybersun Doctor": {
+			"outfit": "/datum/outfit/job/cybersun/doctor",
+			"slots": 1
+		},
+		"Inteq Master At Arms": {
+			"outfit": "/datum/outfit/job/inteq/command/hos",
+			"officer": true,
+			"slots": 1
+		},
+		"Inteq Enforcer": {
+			"outfit": "/datum/outfit/job/inteq/security",
+			"slots": 2
+		},
+		"CLIP Team Sergeant": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt/lead",
+			"officer": true,
+			"slots": 1
+		},
+		"CLIP-CMM Minuteman": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt",
+			"slots": 1
+		},
+		"CLIP-CMM Combat Medic": {
+			"outfit": "/datum/outfit/job/clip/minutemen/grunt/medic",
+			"slots": 1
+		},
+		"CLIP Military Correspondent": {
+			"outfit": "/datum/outfit/job/clip/correspondent",
+			"slots": 1
+		}
+	},
+	"enabled": false
+}
