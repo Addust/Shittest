@@ -114,7 +114,7 @@
 /obj/structure/fence/door/opened
 	icon_state = "door_opened"
 	open = TRUE
-	density = TRUE
+	density = FALSE
 
 /obj/structure/fence/door/attack_hand(mob/user)
 	if(can_open(user))

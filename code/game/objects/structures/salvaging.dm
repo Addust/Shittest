@@ -6,15 +6,17 @@
 	anchored = TRUE
 	var/salvageable_parts = list()
 	var/frame_type = /obj/structure/frame/machine
+	var/spawns_frame = TRUE
 
 /obj/structure/salvageable/examine(mob/user)
 	. = ..()
 	. += "You can use a crowbar to salvage this."
 
 /obj/structure/salvageable/proc/dismantle(mob/living/user)
-	var/obj/frame = new frame_type(get_turf(src))
-	frame.anchored = anchored
-	frame.dir = dir
+	if(spawns_frame)
+		var/obj/frame = new frame_type(get_turf(src))
+		frame.anchored = anchored
+		frame.dir = dir
 	for(var/path in salvageable_parts)
 		if(prob(salvageable_parts[path]))
 			new path (loc)
@@ -413,6 +415,46 @@
 		/obj/effect/spawner/random/salvage/part/scanning = 50,
 		/obj/item/weaponcrafting/receiver = 40,
 		/obj/effect/spawner/random/salvage_laser = 40,
+		/obj/item/storage/toolbox/ammo = 40,
+	)
+
+/obj/structure/salvageable/hopper
+	name = "inactive Al'Sa CQB 'Hopper'"
+	desc = "An inactive, broken-down Hopper drone in the colours of the Coalition. Its gun-lens has gathered dust and its faceplate has been pried open. Some of its parts may still be useful."
+	icon_state = "hopper_coalition"
+	spawns_frame = FALSE
+	salvageable_parts = list(
+		/obj/item/shard = 80,
+		/obj/item/stack/cable_coil/cut = 80,
+		/obj/item/stack/cable_coil/cut = 80,
+		/obj/item/stack/ore/salvage/scrapgold/five = 90,
+		/obj/item/stack/ore/salvage/scrapmetal/five = 100,
+		/obj/item/stack/ore/salvage/scrapplasma = 100,
+		/obj/item/stack/ore/salvage/scrapuranium = 60,
+		/obj/effect/spawner/random/salvage/part/scanning = 50,
+		/obj/effect/spawner/random/salvage/part/scanning = 50,
+		/obj/effect/spawner/random/salvage_laser = 90,
+		/obj/effect/spawner/random/salvage_laser = 30,
+		/obj/effect/spawner/random/salvage_laser = 30,
+	)
+
+/obj/structure/salvageable/bipedal
+	name = "inactive Bipedal Assault Platform"
+	desc = "An inactive, broken-down Bipedal Assault Platform in Coalition blood-red. Its once-terrifying mounted shotgun has been detached, and its optics are dead. Some of its parts may still be useful."
+	icon_state = "coalition_bipedal"
+	spawns_frame = FALSE
+	salvageable_parts = list(
+		/obj/effect/gibspawner/robot/bodypartless = 100,
+		/obj/item/ammo_casing/spent/slug/buck = 80,
+		/obj/item/stack/cable_coil/cut = 80,
+		/obj/item/stack/cable_coil/cut = 80,
+		/obj/item/stack/ore/salvage/scrapgold/five = 90,
+		/obj/item/stack/ore/salvage/scrapmetal/five = 100,
+		/obj/item/stack/ore/salvage/scrapplasma = 100,
+		/obj/item/stack/ore/salvage/scrapplasma = 80,
+		/obj/item/stack/ore/salvage/scrapuranium = 30,
+		/obj/effect/spawner/random/salvage/part/scanning = 50,
+		/obj/effect/spawner/random/salvage/part/scanning = 50,
 		/obj/item/storage/toolbox/ammo = 40,
 	)
 

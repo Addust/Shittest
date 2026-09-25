@@ -1,4 +1,16 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ae" = (
+/obj/machinery/atmospherics/components/trinary/filter/flipped/layer2{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"as" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "at" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -29,6 +41,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"aW" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/ruin/jungle/airbase/fueltanks)
+"bf" = (
+/turf/open/floor/engine/airless,
+/area/ruin/jungle/airbase/fueltanks)
 "bg" = (
 /obj/effect/turf_decal/corner/opaque/syndiered/border,
 /obj/effect/turf_decal/corner/opaque/syndiered/border{
@@ -37,24 +56,38 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"bh" = (
+/obj/structure/table,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/template_noop)
 "bn" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/jungle/airbase/wrecked_fighter)
-"cd" = (
-/turf/open/floor/plasteel/stairs{
-	dir = 1;
-	icon = 'icons/obj/stairs.dmi'
+"ci" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+	pressure_checks = 2
 	},
-/area/ruin/jungle/airbase/exterior/north)
+/turf/open/floor/engine/o2,
+/area/ruin/jungle/airbase/fueltanks)
 "cp" = (
 /turf/open/floor/plating/rust,
 /area/overmap_encounter/planetoid/jungle/explored)
+"cR" = (
+/obj/effect/turf_decal/rechargefloor,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "da" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"do" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "dv" = (
 /obj/effect/turf_decal/road{
 	dir = 4
@@ -64,6 +97,14 @@
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"dB" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"dI" = (
+/turf/template_noop,
+/area/ruin/jungle/airbase/hangar)
 "dJ" = (
 /obj/effect/turf_decal/road/line/opaque{
 	dir = 4
@@ -71,7 +112,17 @@
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
 "ej" = (
-/turf/template_noop,
+/obj/structure/salvageable/hopper{
+	dir = 4
+	},
+/obj/effect/turf_decal/rechargefloor,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"el" = (
+/obj/structure/platform/military{
+	dir = 6
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
 /area/ruin/jungle/airbase/exterior/north)
 "ep" = (
 /obj/machinery/atmospherics/components/binary/pump/layer4,
@@ -83,6 +134,10 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"ez" = (
+/obj/structure/barricade/concrete,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "eI" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 1
@@ -105,12 +160,27 @@
 /obj/effect/turf_decal/road/stripes,
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"fg" = (
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/ruin/jungle/airbase/fueltanks)
+"fh" = (
+/obj/structure/barricade/concrete{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "fi" = (
 /obj/effect/turf_decal/techfloor/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/hangar)
+"fk" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
 "fl" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered{
 	dir = 9
@@ -140,6 +210,17 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"fx" = (
+/obj/structure/salvageable/turret,
+/obj/effect/turf_decal/box/red,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"fz" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "fC" = (
 /obj/effect/turf_decal/road/line/opaque{
 	dir = 4
@@ -153,6 +234,42 @@
 	},
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"fD" = (
+/obj/effect/turf_decal/industrial/caution{
+	dir = 1
+	},
+/obj/item/storage/toolbox/ammo/c10mm,
+/obj/item/storage/toolbox/ammo/shotgun,
+/obj/structure/closet/crate/secure/gear,
+/obj/effect/mapping_helpers/crate_shelve,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"fU" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"fX" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"gb" = (
+/obj/effect/turf_decal/box,
+/obj/structure/crate_shelf,
+/obj/structure/closet/crate/engineering,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition/ramzi,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition/ramzi,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"gA" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/jungle/airbase/engineering)
 "gB" = (
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/exterior/north)
@@ -175,6 +292,19 @@
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"hl" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/barricade/concrete{
+	dir = 8
+	},
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"hF" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "hY" = (
 /obj/machinery/power/shuttle/engine/fire,
 /turf/open/floor/engine/hull,
@@ -183,17 +313,39 @@
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered/end{
 	dir = 8
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/shed)
 "iH" = (
 /turf/open/floor/plasteel/tech/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"iQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/on{
+	pressure_checks = 1
+	},
+/turf/open/floor/engine/hydrogen,
+/area/ruin/jungle/airbase/fueltanks)
+"iR" = (
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/cargo)
 "iV" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/inactive_fighter)
+"jf" = (
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/med)
+"jj" = (
+/obj/structure/barricade/concrete{
+	dir = 4
+	},
+/obj/structure/barricade/concrete{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "jA" = (
 /obj/effect/turf_decal/road/line/opaque{
 	dir = 4
@@ -211,6 +363,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/airbase/inactive_fighter)
+"jD" = (
+/obj/structure/platform/military{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "jH" = (
 /obj/effect/turf_decal/techfloor/corner{
 	dir = 1
@@ -221,31 +379,110 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"kx" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 8;
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ruin/jungle/airbase/exterior/north)
 "kz" = (
 /obj/effect/turf_decal/number/right_zero{
 	dir = 8
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"kI" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "kP" = (
 /turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"kS" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/jungle/airbase/fueltanks)
+"ld" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 2;
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ruin/jungle/airbase/exterior/north)
 "ll" = (
 /obj/structure/salvageable/airbase/cannon{
 	pixel_y = 16
 	},
 /turf/closed/mineral/random/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"lu" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/porta_turret/ruin/ramzi/heavy{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"lQ" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "lV" = (
 /turf/closed/mineral/random/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"mc" = (
+/obj/structure/platform/military{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold/visible{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "mi" = (
 /obj/effect/turf_decal/techfloor,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/hangar)
+"mu" = (
+/obj/structure/platform/military{
+	dir = 9
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "mA" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/jungle/airbase/hangar)
+"mW" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/agrav/cybersun/ramzi{
+	search_alarms = 1
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/exterior/north)
+"nm" = (
+/obj/structure/platform/military{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
+"nI" = (
+/turf/closed/wall/concrete,
+/area/ruin/jungle/airbase/exterior/fuel)
+"nU" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "oa" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered/corner{
 	dir = 1
@@ -255,9 +492,47 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/shed)
+"ok" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/airbase/engineering)
+"oI" = (
+/obj/machinery/atmospherics/components/binary/volume_pump/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/binary/volume_pump/layer2{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"oM" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/barricade/concrete,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "pe" = (
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"pj" = (
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 5
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"pr" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"pA" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/obj/machinery/atmospherics/pipe/simple/brown/visible,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "pE" = (
 /obj/effect/turf_decal/road/line,
 /obj/effect/turf_decal/road/line{
@@ -271,6 +546,10 @@
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"pM" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "qd" = (
 /obj/structure/platform/ship/corner{
 	dir = 8
@@ -280,6 +559,12 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/exterior/north)
+"qu" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/on{
+	pressure_checks = 2
+	},
+/turf/open/floor/engine/airless,
+/area/ruin/jungle/airbase/fueltanks)
 "qx" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 8
@@ -317,6 +602,48 @@
 "rl" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/jungle/airbase/shed)
+"rz" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/jungle/airbase/command)
+"rJ" = (
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"rK" = (
+/obj/structure/barricade/concrete{
+	dir = 8
+	},
+/obj/structure/barricade/concrete,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"rS" = (
+/obj/structure/platform/military/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"sc" = (
+/obj/machinery/light/street,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"sg" = (
+/turf/template_noop,
+/area/ruin/jungle/airbase/engineering)
+"sh" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"sj" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/jungle/airbase/hangar)
+"sp" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/barricade/concrete,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "sr" = (
 /obj/effect/turf_decal/road/stripes,
 /turf/open/floor/concrete/jungleplanet/interior,
@@ -345,8 +672,39 @@
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "tG" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech/grid/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"tT" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"tW" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"un" = (
+/obj/structure/table/reinforced,
+/obj/item/weaponcrafting/receiver{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/storage/box/ammo/a12g_buckshot{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "uw" = (
 /obj/structure/platform/military,
 /turf/open/floor/plating/asteroid/dirt/jungle,
@@ -365,6 +723,18 @@
 /obj/structure/platform/ship,
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"uT" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/item/storage/toolbox/syndicate/empty{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/obj/item/weldingtool/largetank{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/rust/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "vu" = (
 /turf/open/floor/plating/asteroid/dirt/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
@@ -379,6 +749,10 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"vF" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "vK" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8
@@ -396,6 +770,33 @@
 	icon = 'icons/obj/stairs.dmi'
 	},
 /area/ruin/jungle/airbase/exterior/north)
+"vM" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"vS" = (
+/obj/structure/flora/stump{
+	icon_state = "anchored_rod";
+	pixel_y = -3;
+	name = "rod";
+	desc = "A metal rod struck into the ground."
+	},
+/obj/item/clothing/head/helmet/gezena{
+	pixel_x = 0;
+	pixel_y = 29
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/template_noop)
+"wc" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold/orange/visible/layer2,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "wo" = (
 /obj/machinery/suit_storage_unit/inherit{
 	locked = 1
@@ -413,12 +814,50 @@
 /obj/structure/platform/ship/corner,
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"wH" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/airbase/engineering)
 "wM" = (
 /turf/open/floor/concrete/reinforced/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "wT" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"wX" = (
+/obj/structure/table/reinforced{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/item/weaponcrafting/receiver{
+	pixel_x = 4;
+	pixel_y = 13
+	},
+/obj/item/ammo_box/magazine/m10mm_cottonmouth/empty{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"xc" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition/ramzi{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/obj/item/screwdriver/nuke{
+	pixel_x = -7;
+	pixel_y = -2
+	},
+/obj/item/multitool/syndie{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/wirecutters/syndie{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "xm" = (
 /turf/open/floor/plasteel/stairs{
 	dir = 8;
@@ -431,7 +870,7 @@
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
-/area/ruin/jungle/airbase/exterior/south)
+/area/ruin/jungle/airbase/exterior/north)
 "xv" = (
 /obj/effect/turf_decal/corner/opaque/syndiered/mono,
 /obj/item/wallframe/button{
@@ -471,6 +910,14 @@
 /obj/effect/turf_decal/road/stripes,
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"yh" = (
+/obj/structure/hazard/floor/burglar_alarm{
+	hazard_faction = list("Ramzi Clique");
+	id = "ramzi_airbase_alarms";
+	door_id = "airbase_bots_north"
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "yj" = (
 /obj/effect/turf_decal/corner/opaque/syndiered/border{
 	dir = 1
@@ -485,6 +932,19 @@
 /obj/effect/turf_decal/road/stop,
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"yr" = (
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"yF" = (
+/obj/machinery/light/broken/directional/north,
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "yH" = (
 /obj/structure/frame/machine{
 	anchored = 1
@@ -496,6 +956,10 @@
 	dir = 4
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
+/area/ruin/jungle/airbase/exterior/north)
+"zn" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "zv" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered{
@@ -512,6 +976,20 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"zW" = (
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Ar" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/mob/living/simple_animal/hostile/human/ramzi/civilian{
+	dir = 1;
+	wander = 0
+	},
+/turf/open/floor/plating/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "Av" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 8
@@ -525,6 +1003,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/inactive_fighter)
+"AJ" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/quadrotor/cybersun/ramzi{
+	search_alarms = 1
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/exterior/north)
 "AQ" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4{
 	dir = 8
@@ -534,12 +1019,6 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk,
 /turf/open/floor/plating/jungleplanet/lit,
-/area/ruin/jungle/airbase/exterior/north)
-"AV" = (
-/obj/structure/platform/military{
-	dir = 9
-	},
-/turf/open/floor/plating/asteroid/dirt/jungle,
 /area/ruin/jungle/airbase/exterior/north)
 "AX" = (
 /turf/open/floor/plasteel/tech/jungleplanet/interior,
@@ -560,21 +1039,58 @@
 	},
 /turf/open/floor/plasteel/tech/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"BF" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech/grid/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"BK" = (
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "BN" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
 /turf/open/floor/plasteel/tech/grid/jungleplanet/interior,
 /area/ruin/jungle/airbase/shed)
+"BO" = (
+/obj/structure/fence/door,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"BT" = (
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
 "BV" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered{
 	dir = 10
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/shed)
+"Cd" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered/corner,
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Ce" = (
+/turf/open/floor/engine/hydrogen,
+/area/ruin/jungle/airbase/fueltanks)
 "Ct" = (
 /obj/structure/salvageable/airbase/cannon{
 	pixel_y = -15
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"CD" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "CN" = (
 /obj/effect/turf_decal/road{
 	dir = 8
@@ -591,6 +1107,9 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/inactive_fighter)
+"Di" = (
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "DZ" = (
 /obj/machinery/light/directional/west,
 /obj/structure/cable,
@@ -600,6 +1119,21 @@
 "Ea" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/jungle/airbase/inactive_fighter)
+"EB" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
+"EE" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/ruin/jungle/airbase/fueltanks)
+"EF" = (
+/obj/structure/grille,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/jungle/airbase/fueltanks)
 "EM" = (
 /obj/structure/platform/ship{
 	dir = 1
@@ -609,6 +1143,10 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"EZ" = (
+/mob/living/simple_animal/hostile/poison/giant_spider/nurse/midwife,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "Fu" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/warning{
 	dir = 4
@@ -628,15 +1166,52 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"FO" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/airbase/hangar)
+"Gf" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered/end{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Gn" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "Gt" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/shed)
+"GB" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "GH" = (
 /turf/open/floor/plating/asteroid/dirt/jungle,
 /area/ruin/jungle/airbase/exterior/north)
+"GK" = (
+/obj/structure/flora/stump{
+	icon_state = "anchored_rod";
+	pixel_y = -3;
+	name = "rod";
+	desc = "A metal rod struck into the ground."
+	},
+/obj/item/grenade/spawnergrenade/quadrotor{
+	pixel_x = 0;
+	pixel_y = 29
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/template_noop)
 "Ht" = (
 /obj/effect/turf_decal/corner/opaque/syndiered/mono,
 /obj/structure/chair/comfy/shuttle{
@@ -657,6 +1232,10 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/inactive_fighter)
+"HN" = (
+/obj/structure/platform/military/corner,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "HO" = (
 /obj/machinery/atmospherics/components/binary/pump/layer2,
 /obj/machinery/atmospherics/components/binary/pump/layer4{
@@ -665,6 +1244,13 @@
 /obj/effect/turf_decal/road/stripes,
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"HY" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 6
+	},
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "HZ" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 8
@@ -685,8 +1271,18 @@
 	dir = 4
 	},
 /obj/structure/catwalk/over/plated_catwalk,
-/turf/open/floor/plating/jungleplanet/lit,
+/turf/open/floor/plating/rust/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"Jm" = (
+/obj/structure/salvageable/bipedal,
+/obj/effect/turf_decal/rechargefloor,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Kb" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered,
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/jungle/airbase/engineering)
 "Kp" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
 /obj/structure/grille,
@@ -698,6 +1294,23 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/hangar)
+"KY" = (
+/turf/open/floor/engine/o2,
+/area/ruin/jungle/airbase/fueltanks)
+"Lb" = (
+/obj/structure/table/reinforced,
+/obj/item/wrench/syndie{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Lk" = (
+/obj/structure/platform/military/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "Lo" = (
 /obj/item/circuitboard/machine/shuttle/engine/fire,
 /obj/structure/closet/crate/engineering,
@@ -713,6 +1326,10 @@
 	},
 /turf/open/floor/plating/asteroid/dirt/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"Lx" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "LH" = (
 /obj/effect/turf_decal/road/stripes,
 /obj/effect/turf_decal/road/stripes{
@@ -720,11 +1337,71 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"LN" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/barricade/concrete{
+	dir = 8
+	},
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"LW" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/concrete/jungleplanet/interior,
+/area/ruin/jungle/airbase/shed)
+"Mk" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/fence/door/opened{
+	dir = 4
+	},
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"Ml" = (
+/obj/structure/fence,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"Mt" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/jungle/airbase/fueltanks)
+"My" = (
+/obj/structure/platform/military{
+	dir = 10
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"MG" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"MM" = (
+/obj/structure/fluff/vehicle/crawler/crawler_fuel{
+	on = 0
+	},
+/turf/open/floor/concrete/jungleplanet/interior,
+/area/ruin/jungle/airbase/shed)
+"MS" = (
+/obj/structure/fence,
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "MT" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
+/area/ruin/jungle/airbase/exterior/north)
+"MU" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 5
+	},
+/turf/open/floor/plating/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "MY" = (
 /turf/open/floor/plasteel/stairs{
@@ -732,6 +1409,11 @@
 	icon = 'icons/obj/stairs.dmi'
 	},
 /area/ruin/jungle/airbase/exterior/north)
+"Nb" = (
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "Ni" = (
 /obj/structure/platform/ship{
 	dir = 1
@@ -755,6 +1437,31 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"Nv" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/barricade/concrete{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"NG" = (
+/turf/template_noop,
+/area/ruin/jungle/airbase/armory)
+"NJ" = (
+/obj/structure/platform/military/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"NR" = (
+/obj/structure/barricade/concrete{
+	dir = 8
+	},
+/obj/structure/barricade/concrete{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "On" = (
 /obj/structure/salvageable/airbase/missile_launcher{
 	pixel_x = -24;
@@ -762,9 +1469,97 @@
 	},
 /turf/closed/mineral/random/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"Op" = (
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/south)
+"Ow" = (
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 10
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"OI" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2{
+	dir = 9
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"OZ" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/item/crowbar/syndie{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/rust/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Ph" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Pi" = (
+/obj/structure/platform/military{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"Pk" = (
+/obj/machinery/atmospherics/pipe/manifold/orange/visible/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2{
+	dir = 10
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"PC" = (
+/obj/structure/platform/military{
+	dir = 5
+	},
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
 "PH" = (
-/obj/structure/platform/military,
 /turf/template_noop,
+/area/ruin/jungle/airbase/exterior/south)
+"PQ" = (
+/turf/closed/wall/concrete,
+/area/ruin/jungle/airbase/exterior/north)
+"PV" = (
+/obj/structure/table/reinforced,
+/obj/item/grenade/spawnergrenade/quadrotor/coalition{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/modular_computer/laptop/preset/civilian/rilena{
+	pixel_x = -2;
+	pixel_y = 11
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"Qn" = (
+/turf/template_noop,
+/area/ruin/jungle/airbase/command)
+"Qo" = (
+/obj/structure/platform/military{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
+"Qp" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 9
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Qq" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/jungle/airbase/exterior/north)
 "Qs" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -772,7 +1567,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/meter/atmos,
-/turf/open/floor/plating/jungleplanet/lit,
+/turf/open/floor/plating/rust/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "Qt" = (
 /obj/structure/fluff/vehicle/crane{
@@ -780,6 +1575,12 @@
 	},
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"Qu" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/on{
+	pressure_checks = 1
+	},
+/turf/open/floor/engine/o2,
+/area/ruin/jungle/airbase/fueltanks)
 "QH" = (
 /obj/machinery/atmospherics/components/unary/tank{
 	dir = 8;
@@ -788,10 +1589,10 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/wrecked_fighter)
 "QT" = (
-/obj/structure/platform/military{
-	dir = 1
+/obj/machinery/door/poddoor/shutters{
+	id = "airbase_bots_north"
 	},
-/turf/template_noop,
+/turf/open/floor/plasteel/tech/grid/jungleplanet/interior,
 /area/ruin/jungle/airbase/exterior/north)
 "QX" = (
 /obj/machinery/suit_storage_unit/inherit{
@@ -806,27 +1607,90 @@
 /obj/item/clothing/suit/space/syndicate/white_red,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/airbase/shed)
+"QY" = (
+/obj/structure/flora/stump{
+	icon_state = "anchored_rod";
+	pixel_y = -3;
+	name = "rod";
+	desc = "A metal rod struck into the ground."
+	},
+/obj/item/clothing/head/warra/cap/supply{
+	pixel_x = -1;
+	pixel_y = 24
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/template_noop)
 "Rd" = (
 /obj/effect/turf_decal/road/slow{
 	dir = 1
 	},
 /turf/open/floor/concrete/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
+"Rp" = (
+/mob/living/simple_animal/hostile/poison/giant_spider,
+/obj/machinery/atmospherics/pipe/simple/brown/visible{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"RH" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating/rust/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
+"RI" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "RM" = (
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/hangar)
+"Se" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible/layer2,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "Sr" = (
 /obj/structure/platform/military{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/dirt/jungle,
 /area/ruin/jungle/airbase/exterior/north)
+"Su" = (
+/obj/structure/hazard/floor/burglar_alarm{
+	hazard_faction = list("Ramzi Clique");
+	id = "ramzi_airbase_alarms";
+	door_id = "airbase_bots_north"
+	},
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"SW" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 1;
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ruin/jungle/airbase/fueltanks)
 "SX" = (
 /obj/effect/turf_decal/spline/fancy/opaque/syndiered{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/airbase/shed)
+"Tt" = (
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Tu" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 1;
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ruin/jungle/airbase/exterior/north)
+"TG" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/porta_turret/ruin/ramzi/heavy{
+	dir = 10
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "TU" = (
 /turf/template_noop,
 /area/template_noop)
@@ -836,6 +1700,12 @@
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"Ub" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered/end{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/engineering)
 "Uw" = (
 /obj/structure/sign/number/four{
 	pixel_x = 0;
@@ -859,6 +1729,55 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/inactive_fighter)
+"UQ" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Vd" = (
+/obj/machinery/atmospherics/pipe/simple/brown/visible,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Vf" = (
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
+"Vs" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"VF" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/concrete/jungleplanet/interior,
+/area/ruin/jungle/airbase/shed)
+"VG" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/turf/open/floor/plating/rust/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"VJ" = (
+/obj/effect/turf_decal/spline/fancy/opaque/syndiered{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/grid/dark,
+/area/ruin/jungle/airbase/engineering)
+"VT" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"VY" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/fuel)
 "Wb" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
@@ -891,6 +1810,16 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/wrecked_fighter)
+"WZ" = (
+/obj/structure/barricade/concrete{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"Xx" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "Xz" = (
 /turf/open/floor/concrete/jungleplanet/interior,
 /area/ruin/jungle/airbase/shed)
@@ -928,11 +1857,31 @@
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/south)
+"YG" = (
+/obj/effect/turf_decal/rechargefloor,
+/mob/living/simple_animal/hostile/automated/hopper/coalition/ramzi{
+	search_alarms = 1
+	},
+/turf/open/floor/plasteel/patterned/grid/dark/jungleplanet/interior,
+/area/ruin/jungle/airbase/exterior/north)
+"YU" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/porta_turret/ruin/ramzi/heavy{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
 "Za" = (
 /obj/effect/turf_decal/road/line/opaque{
 	dir = 8
 	},
 /turf/open/floor/concrete/jungleplanet/lit,
+/area/ruin/jungle/airbase/exterior/north)
+"Zl" = (
+/obj/structure/barricade/concrete{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "Zm" = (
 /obj/structure/marker_beacon{
@@ -940,6 +1889,12 @@
 	},
 /turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/overmap_encounter/planetoid/jungle/explored)
+"Zv" = (
+/obj/structure/platform/military{
+	dir = 5
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 "ZA" = (
 /obj/structure/sign/number/random{
 	pixel_x = 0;
@@ -959,7 +1914,7 @@
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement/jungleplanet/lit,
-/area/ruin/jungle/airbase/exterior/south)
+/area/ruin/jungle/airbase/exterior/north)
 "ZJ" = (
 /obj/machinery/atmospherics/pipe/manifold/orange/hidden/layer4{
 	dir = 4
@@ -968,7 +1923,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk/over/plated_catwalk,
-/turf/open/floor/plating/jungleplanet/lit,
+/turf/open/floor/plating/rust/jungleplanet/lit,
 /area/ruin/jungle/airbase/exterior/north)
 "ZM" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
@@ -985,6 +1940,12 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/airbase/inactive_fighter)
+"ZV" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/dirt/jungle,
+/area/ruin/jungle/airbase/exterior/north)
 
 (1,1,1) = {"
 TU
@@ -1401,11 +2362,11 @@ Ik
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+HN
+Qo
+Qo
+Qo
+NJ
 Ik
 Ik
 Ik
@@ -1452,8 +2413,6 @@ TU
 TU
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
@@ -1480,9 +2439,11 @@ Ik
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+NR
+fh
+rK
+Sr
 Ik
 Ik
 Ik
@@ -1529,7 +2490,6 @@ TU
 TU
 TU
 TU
-TU
 Ik
 Ik
 Ik
@@ -1556,6 +2516,11 @@ Ik
 Ik
 Ik
 Ik
+uw
+WZ
+YU
+ez
+Sr
 Ik
 Ik
 Ik
@@ -1563,15 +2528,11 @@ Ik
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+HN
+Qo
+Qo
+Qo
+NJ
 Ik
 Ik
 Ik
@@ -1605,58 +2566,58 @@ TU
 (9,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+HN
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+el
+wM
+wM
+wM
+Zv
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+Qo
+el
+NR
+fh
+rK
+Sr
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 kP
 kP
 vu
@@ -1682,58 +2643,58 @@ TU
 (10,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+NR
+fh
+fh
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+zn
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+TG
+ez
+Sr
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 Zm
 vu
 Lp
@@ -1759,58 +2720,58 @@ TU
 (11,1,1) = {"
 TU
 TU
-TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+HY
+VG
+VG
+dB
+dB
+dB
+dB
+MU
+HY
+VG
+VG
+VG
+dB
+dB
+dB
+dB
+dB
+Vs
+dB
+MU
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+ez
+Sr
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 kP
 kP
 kP
@@ -1835,59 +2796,59 @@ TU
 "}
 (12,1,1) = {"
 TU
-TU
-TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+vM
+mu
+jD
+jD
+jD
+jD
+Pi
+mc
+mc
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+My
+kx
+mu
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+jD
+My
+wM
+wM
+mu
+jD
+jD
+Lk
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 Zm
 vu
 Lp
@@ -1912,39 +2873,33 @@ TU
 "}
 (13,1,1) = {"
 TU
-TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+HN
+Qo
+Qo
+el
+wM
+vM
+Mt
+Mt
+Mt
+Mt
+UQ
+yr
+oI
+oI
+UQ
+nI
+GH
+GH
+GH
+GH
+GH
+GH
+fU
+sh
+Ji
+GH
+fU
 GH
 GH
 GH
@@ -1953,18 +2908,24 @@ GH
 GH
 GH
 GH
+fU
 GH
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+GH
+uw
+wM
+wM
+Sr
+GH
+GH
+GH
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 kP
 kP
 kP
@@ -1989,39 +2950,31 @@ TU
 "}
 (14,1,1) = {"
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+NR
+fh
+wM
+wM
+vM
+Mt
+bf
+iQ
+kS
+Di
+yr
+GB
+GB
+Tt
+hF
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+BK
+Ji
 GH
 GH
 GH
@@ -2031,19 +2984,27 @@ GH
 GH
 GH
 GH
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+GH
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2066,61 +3027,61 @@ TU
 "}
 (15,1,1) = {"
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+fx
+RI
+RI
+vM
+Mt
+Ce
+bf
+EF
+Di
+yr
+Pk
+wc
+rJ
+nI
+MS
+MS
+Ml
+Ml
+Ml
+MS
+MS
+PQ
+Mk
+PQ
+MS
+Ml
+Ml
+Ml
+Ml
+MS
+MS
+PQ
 GH
 GH
 GH
-GH
-GH
-GH
-GH
-GH
-GH
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+sc
+uw
+wM
+wM
+Zv
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 pE
 pE
 pE
@@ -2143,61 +3104,61 @@ TU
 "}
 (16,1,1) = {"
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-GH
+uw
+jj
+Zl
+wM
+wM
+pr
+Mt
+bf
+qu
+kS
+zW
+tW
+Se
+ae
+Tt
+hF
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+VT
+Ji
+VT
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+ZV
 GH
 GH
 GH
 GH
 uw
 wM
+yh
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 pE
 pE
 pE
@@ -2220,23 +3181,23 @@ TU
 "}
 (17,1,1) = {"
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+rS
+jD
+jD
+My
+wM
+pr
+Mt
+Mt
+Mt
+Mt
+yF
+yr
+Di
+tT
+Tt
+hF
+pe
 pe
 pe
 pe
@@ -2253,7 +3214,7 @@ pe
 pe
 pe
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2261,20 +3222,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+mu
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2300,20 +3261,20 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+pr
+fg
+EE
+fg
+SW
+Gn
+Rp
+Di
+tT
+Tt
+hF
+pe
 xY
 IF
 IF
@@ -2330,7 +3291,7 @@ IF
 qx
 MT
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2338,20 +3299,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+Zv
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2377,20 +3338,20 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+pr
+fg
+fg
+aW
+SW
+Gn
+yr
+Di
+tT
+Tt
+hF
+pe
 xY
 pe
 pe
@@ -2407,7 +3368,7 @@ pe
 pe
 MT
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2415,20 +3376,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+wM
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2454,20 +3415,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+vM
+Mt
+Mt
+Mt
+Mt
+VY
+yr
+EZ
+tT
+Tt
+hF
+pe
 xY
 pe
 pe
@@ -2484,7 +3445,7 @@ pe
 pe
 MT
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2492,20 +3453,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+wM
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2531,20 +3492,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+vM
+Mt
+KY
+Qu
+kS
+Di
+yr
+Di
+tT
+Tt
+hF
+pe
 xY
 pe
 pe
@@ -2561,7 +3522,7 @@ pe
 pe
 MT
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2569,20 +3530,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+wM
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2608,20 +3569,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+Nv
+lQ
+Mt
+KY
+KY
+EF
+Di
+Ow
+pj
+tT
+Tt
+hF
+pe
 xY
 pe
 pe
@@ -2638,7 +3599,7 @@ pe
 pe
 MT
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2646,20 +3607,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+wM
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2685,20 +3646,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+vM
+Mt
+KY
+ci
+kS
+Vf
+nU
+Ph
+ae
+rJ
+nI
+pe
 xY
 pe
 pe
@@ -2715,28 +3676,28 @@ wF
 yW
 qd
 pe
+ZV
 GH
 GH
 GH
-GH
-GH
+sc
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+wM
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2762,20 +3723,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+pr
+Mt
+Mt
+Mt
+Mt
+Gn
+Di
+yr
+tT
+Di
+BO
+pe
 xY
 pe
 pe
@@ -2792,7 +3753,7 @@ uR
 iH
 Ni
 pe
-GH
+ZV
 GH
 GH
 GH
@@ -2800,20 +3761,20 @@ GH
 uw
 wM
 wM
-Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+mu
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2839,20 +3800,20 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+sp
+nm
+BT
+vF
+Vd
+Nb
+pA
+Qp
+OI
+Tt
+nI
+pe
 xY
 pe
 pe
@@ -2869,28 +3830,28 @@ uR
 iH
 Ni
 pe
+ZV
 GH
-GH
-GH
+fz
 GH
 GH
 uw
 wM
 wM
 Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+iR
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2916,13 +3877,13 @@ TU
 TU
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+wM
+oM
+PC
+EB
+fk
+fk
 rl
 rl
 rl
@@ -2946,7 +3907,7 @@ uR
 Uy
 Ni
 pe
-GH
+PQ
 GH
 GH
 GH
@@ -2955,19 +3916,19 @@ uw
 MY
 MY
 Sr
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
+Op
 XX
 XX
 XX
@@ -2993,13 +3954,13 @@ TU
 TU
 TU
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+kI
+LN
+hl
+hl
+fh
 rl
 Yn
 wo
@@ -3070,14 +4031,14 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-XG
+uw
+jj
+Zl
+wM
+wM
+RI
+wM
+rl
 fl
 SX
 oa
@@ -3147,13 +4108,13 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+rS
+jD
+jD
+My
+wM
+RI
+wM
 rl
 fd
 Gt
@@ -3227,9 +4188,9 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+WZ
+Xx
 rl
 rl
 rl
@@ -3238,7 +4199,7 @@ XG
 rl
 rl
 rl
-pe
+Lx
 pe
 pe
 pe
@@ -3304,15 +4265,15 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+WZ
+Xx
 rl
 Xz
+VF
 Xz
 Xz
-Xz
-Xz
+VF
 Xz
 rl
 pe
@@ -3381,9 +4342,9 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+wM
+Xx
 rl
 Xz
 Xz
@@ -3458,9 +4419,9 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+wM
+Xx
 rl
 Xz
 Xz
@@ -3535,15 +4496,15 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+WZ
+Xx
 rl
 Xz
 Xz
 Xz
 Xz
-Xz
+MM
 Xz
 BN
 pe
@@ -3612,15 +4573,15 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+WZ
+Xx
 rl
 Xz
+LW
 Xz
 Xz
-Xz
-Xz
+LW
 Xz
 rl
 pe
@@ -3639,28 +4600,28 @@ pe
 pe
 pe
 pe
-ej
-ej
-ej
-ej
-ej
+PQ
+GH
+GH
+GH
+GH
+uw
+vL
+vL
+Sr
+GH
 PH
-vL
-vL
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -3689,9 +4650,9 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
+uw
+wM
+Xx
 rl
 rl
 rl
@@ -3716,28 +4677,28 @@ pe
 pe
 pe
 pe
-ej
-ej
-ej
-ej
-ej
+ZV
+GH
+fU
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
 PH
-wM
-wM
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -3766,55 +4727,55 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+WZ
+Xx
+Xx
+Xx
+RI
+RI
+RI
+wM
+wM
+Tu
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+ZV
+GH
+GH
+GH
+GH
 uw
 wM
 wM
-wM
-wM
-cd
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-ej
-ej
-ej
-ej
-ej
+Sr
+GH
 PH
-wM
-wM
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -3843,55 +4804,55 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+uw
+jj
+Zl
+wM
+Zl
+Zl
+wM
+RI
+wM
+wM
+Tu
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+pe
+PQ
+GH
+GH
+GH
+sc
 uw
 wM
 wM
-wM
-wM
-cd
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-pe
-ej
-ej
-ej
-ej
-ej
+Sr
+GH
 PH
-wM
-wM
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -3920,55 +4881,55 @@ TU
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+rS
+jD
+jD
+jD
+jD
+My
+WZ
+Xx
+mu
+mA
+mA
+mA
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+mA
+mA
+mA
+GH
+GH
+GH
 uw
 wM
 wM
-AV
-mA
-mA
-mA
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-tG
-mA
-mA
-mA
-ej
-ej
-ej
+Sr
+GH
 PH
-wM
-wM
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4003,8 +4964,8 @@ Ik
 Ik
 Ik
 uw
-wM
-wM
+WZ
+Xx
 Sr
 mA
 Yq
@@ -4026,26 +4987,26 @@ RM
 eI
 Yq
 mA
-ej
-ej
-ej
+GH
+GH
+GH
+uw
+yh
+wM
+Qq
+Qq
 PH
-wM
-wM
-QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4076,12 +5037,12 @@ Ik
 Ik
 Ik
 Ik
-Ik
-Ik
-Ik
-uw
+HN
+Qo
+Qo
+el
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4103,26 +5064,26 @@ RM
 eI
 Yq
 mA
-ej
-ej
-ej
-PH
+GH
+GH
+GH
+uw
 wM
 wM
 QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+YG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4147,9 +5108,6 @@ TU
 TU
 TU
 TU
-TU
-Ik
-Ik
 Ik
 Ik
 Ik
@@ -4157,8 +5115,11 @@ Ik
 Ik
 Ik
 uw
+NR
+fh
 wM
 wM
+Xx
 Sr
 mA
 Yq
@@ -4180,26 +5141,26 @@ RM
 eI
 Yq
 mA
-ej
-ej
-ej
-PH
+GH
+GH
+GH
+uw
 wM
 wM
 QT
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+AJ
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4224,9 +5185,6 @@ TU
 TU
 TU
 TU
-TU
-Ik
-Ik
 Ik
 Ik
 Ik
@@ -4234,8 +5192,11 @@ Ik
 Ik
 Ik
 uw
-wM
-wM
+WZ
+lu
+RI
+Xx
+Xx
 Sr
 mA
 Yq
@@ -4257,26 +5218,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+rz
+rz
+Qn
+Qn
+Qn
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4300,9 +5261,6 @@ TU
 (44,1,1) = {"
 TU
 TU
-TU
-TU
-Ik
 Ik
 Ik
 Ik
@@ -4311,8 +5269,11 @@ Ik
 Ik
 Ik
 uw
+jj
+Zl
 wM
 wM
+Xx
 Sr
 mA
 Yq
@@ -4334,26 +5295,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+rz
+Qn
+Qn
+Qn
+Qn
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4377,19 +5338,19 @@ TU
 (45,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
+QY
 Ik
 Ik
 Ik
-Ik
-Ik
-uw
+rS
+jD
+jD
+My
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4411,26 +5372,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Qn
+Qn
+Qn
+Qn
+Qn
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4455,7 +5416,6 @@ TU
 TU
 TU
 TU
-TU
 Ik
 Ik
 Ik
@@ -4463,10 +5423,11 @@ Ik
 Ik
 Ik
 Ik
+bh
 Ik
 uw
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4488,26 +5449,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+rz
+Qn
+Qn
+Qn
+Qn
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4531,19 +5492,19 @@ TU
 (47,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
 Ik
+GK
 Ik
 Ik
 Ik
+bh
 Ik
 uw
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4565,26 +5526,26 @@ ep
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+rz
+rz
+Qn
+Qn
+Qn
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4608,8 +5569,6 @@ TU
 (48,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
@@ -4617,10 +5576,12 @@ Ik
 Ik
 Ik
 Ik
+Ik
+bh
 Ik
 uw
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4642,26 +5603,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+QT
+AJ
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4685,8 +5646,9 @@ TU
 (49,1,1) = {"
 TU
 TU
-TU
-TU
+Ik
+Ik
+vS
 Ik
 Ik
 Ik
@@ -4694,10 +5656,9 @@ Ik
 Ik
 Ik
 Ik
-Ik
-uw
+el
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4719,26 +5680,26 @@ zU
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+QT
+mW
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4762,8 +5723,6 @@ TU
 (50,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
@@ -4772,9 +5731,11 @@ Ik
 Ik
 Ik
 Ik
-uw
+Ik
+Ik
+ld
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4796,26 +5757,26 @@ EM
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+yh
+wM
+Qq
+Qq
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4839,8 +5800,6 @@ TU
 (51,1,1) = {"
 TU
 TU
-TU
-TU
 Ik
 Ik
 Ik
@@ -4849,9 +5808,11 @@ Ik
 Ik
 Ik
 Ik
-uw
+Ik
+Ik
+My
 wM
-wM
+Xx
 Sr
 mA
 Yq
@@ -4873,26 +5834,26 @@ EM
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4917,18 +5878,18 @@ TU
 TU
 TU
 TU
-TU
 Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+gA
+gA
+gA
+gA
+gA
+gA
+gA
+gA
 uw
 wM
-wM
+RI
 Sr
 mA
 Yq
@@ -4950,26 +5911,26 @@ EM
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -4995,17 +5956,17 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-uw
+gA
+un
+Lb
+pM
+Ub
+cR
+ej
+gA
+el
 wM
-wM
+RI
 Sr
 mA
 Yq
@@ -5027,26 +5988,26 @@ da
 eI
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5072,17 +6033,17 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-uw
+gA
+RH
+RH
+CD
+MG
+as
+as
+BF
 wM
 wM
+RI
 Sr
 mA
 Yq
@@ -5104,26 +6065,26 @@ Kv
 jH
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5149,17 +6110,17 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-uw
+gA
+RH
+Jm
+Ar
+fX
+CD
+RH
+BF
 wM
 wM
+Xx
 Sr
 mA
 Yq
@@ -5181,26 +6142,26 @@ Yq
 Yq
 Yq
 mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+uw
+wM
+wM
+Sr
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5226,58 +6187,58 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+gA
+CD
+OZ
+uT
+Cd
+do
+do
+BF
+wM
+wM
+Xx
+Sr
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+FO
+mA
+mA
+mA
+mA
+mA
+mA
+mA
 GH
 GH
 GH
 GH
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-mA
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5303,58 +6264,58 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+gA
+PV
+xc
+wX
+Gf
+fD
+gb
+gA
+My
+wM
+RI
+Zv
+mA
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+mA
+dI
+dI
+dI
+mA
 GH
 GH
 GH
 GH
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-ej
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5380,58 +6341,58 @@ TU
 TU
 TU
 TU
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+gA
+gA
+gA
+gA
+ok
+gA
+gA
+gA
+Qq
+wM
+RI
+wM
+mA
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+mA
+dI
+dI
+dI
+mA
 GH
 GH
+jf
+jf
+jf
+jf
+jf
 GH
 GH
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5459,56 +6420,56 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+Kb
+wH
+VJ
+gA
+AJ
+QT
+wM
+Su
+RI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+FO
+dI
+dI
+dI
+mA
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5536,56 +6497,56 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+Kb
+wH
+VJ
+gA
+AJ
+QT
+wM
+wM
+wM
+mA
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+mA
+dI
+dI
+dI
+mA
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5612,57 +6573,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+gA
+gA
+ok
+gA
+gA
+gA
+Qq
+wM
+wM
+mu
+mA
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+mA
+mA
+mA
+mA
+sj
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5689,57 +6650,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+uw
+wM
+wM
+GH
+mA
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+dI
+mA
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5766,57 +6727,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+uw
+wM
+wM
+GH
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+sj
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5843,57 +6804,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+el
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5920,57 +6881,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+wM
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -5997,57 +6958,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+sg
+wM
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6074,57 +7035,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+wM
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6151,57 +7112,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+My
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+jf
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6228,57 +7189,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+uw
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6305,57 +7266,57 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+gA
+sg
+sg
+sg
+sg
+sg
+gA
+uw
+wM
+wM
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6389,50 +7350,50 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+uw
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6466,50 +7427,50 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+uw
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+wM
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6543,50 +7504,50 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+GH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6636,34 +7597,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6713,34 +7674,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6790,34 +7751,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6867,34 +7828,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -6944,34 +7905,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7021,34 +7982,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7098,34 +8059,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7175,34 +8136,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7252,34 +8213,34 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7331,32 +8292,32 @@ TU
 TU
 TU
 TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 pE
 pE
 pE
@@ -7408,32 +8369,32 @@ TU
 TU
 TU
 TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 pE
 pE
 pE
@@ -7485,32 +8446,32 @@ TU
 TU
 TU
 TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
+PH
 XX
 XX
 XX
@@ -7562,16 +8523,16 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
@@ -7639,16 +8600,16 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
@@ -7716,16 +8677,16 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU
@@ -7793,16 +8754,16 @@ TU
 TU
 TU
 TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
-TU
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
+NG
 TU
 TU
 TU

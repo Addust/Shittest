@@ -511,7 +511,7 @@
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/officer/captain/veteran //airbase
 	name = "Ramzi Clique Veteran"
-	desc = "A commanding deserter from the Gorlex Marauders turned pirate. They stand tall, clad in a well-kept ICW-era officer's greatcoat - yellow goggles over their face betraying their new loyalties as the eyes behind guide a well-kept, hefty revolver.."
+	desc = "A commanding deserter from the Gorlex Marauders turned pirate. They stand tall, clad in a well-kept ICW-era officer's greatcoat - yellow goggles over their face betraying their new loyalties as the eyes behind guide a well-kept, hefty revolver."
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/officer/icw
 	armor_base = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
 
