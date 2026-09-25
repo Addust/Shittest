@@ -101,6 +101,12 @@
 	/obj/effect/turf_decal/spline/fancy/##color_name/corner {	\
 		icon_state = "spline_fancy_corner"				\
 	}													\
+	/obj/effect/turf_decal/spline/fancy/##color_name/end {	\
+		icon_state = "spline_fancy_cee"				\
+	}													\
+	/obj/effect/turf_decal/spline/fancy/##color_name/full {	\
+		icon_state = "spline_fancy_full"				\
+	}													\
 	/obj/effect/turf_decal/road/line/##color_name {		\
 		color = ##tile_color							\
 	}													\

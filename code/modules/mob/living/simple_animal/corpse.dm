@@ -214,6 +214,17 @@
 	name = "Ramzi Clique Captain"
 	outfit = /datum/outfit/ramzi/officer/captain
 
+/obj/effect/mob_spawn/human/corpse/ramzi/officer/icw
+	name = "Ramzi Clique Veteran"
+	outfit = /datum/outfit/ramzi/officer/icw
+
+/datum/outfit/ramzi/officer/icw
+	name = "Ramzi Clique Veteran Corpse"
+	uniform = /obj/item/clothing/under/syndicate/gorlex
+	head = /obj/item/clothing/head/HoS/syndicate
+	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
+	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/ramzi
+
 /datum/outfit/ramzi/officer/captain
 	name = "Ramzi Clique Captain"
 	suit = /obj/item/clothing/suit/armor/ramzi/captain

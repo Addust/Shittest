@@ -509,6 +509,12 @@
 	rapid = 2 //they are well-trained and can thus fire a viper quicker
 	rapid_fire_delay = 4
 
+/mob/living/simple_animal/hostile/human/ramzi/ranged/officer/captain/veteran //airbase
+	name = "Ramzi Clique Veteran"
+	desc = "A commanding deserter from the Gorlex Marauders turned pirate. They stand tall, clad in a well-kept ICW-era officer's greatcoat - yellow goggles over their face betraying their new loyalties as the eyes behind guide a well-kept, hefty revolver.."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/officer/icw
+	armor_base = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
+
 /mob/living/simple_animal/hostile/human/ramzi/ranged/shotgun
 	name = "Ramzi Clique Breacher"
 	desc = "A deserter from the Gorlex Marauders turned pirate. They move low and quickly, heavy combat shotgun at the ready."

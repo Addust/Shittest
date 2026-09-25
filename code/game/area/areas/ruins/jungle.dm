@@ -23,11 +23,11 @@
 // Abandoned Airbase
 
 /area/ruin/jungle/airbase
-	name = "Abandoned Airbase"
+	name = "Airbase"
 	icon_state = "green"
 
-/area/ruin/jungle/airbase/tower
-	name = "Airbase Command Tower"
+/area/ruin/jungle/airbase/command
+	name = "Airbase Command"
 	icon_state = "bridge"
 
 /area/ruin/jungle/airbase/cargo
@@ -42,12 +42,16 @@
 	name = "Airbase Engineering"
 	icon_state = "dk_yellow"
 
+/area/ruin/jungle/airbase/fueltanks
+	name = "Airbase Fuel Tanks"
+	icon_state = "dk_yellow"
+
 /area/ruin/jungle/airbase/med
 	name = "Airbase Medical"
 	icon_state = "med_office"
 
 /area/ruin/jungle/airbase/dorms
-	name = "Airbase Living Space"
+	name = "Airbase Quarters"
 	icon_state = "crew_quarters"
 
 /area/ruin/jungle/airbase/armory
@@ -58,10 +62,26 @@
 	name = "Airbase Shed"
 	icon_state = "storage"
 
-/area/ruin/jungle/airbase/turrets
-	name = "Abandoned Airbase Guns"
-	icon_state = "green"
-	requires_power = FALSE
+/area/ruin/jungle/airbase/exterior
+	name = "Airbase Exterior"
+	outdoors = TRUE
+	allow_weather = TRUE
+
+/area/ruin/jungle/airbase/exterior/north
+	name = "Airbase Northern Exterior"
+
+/area/ruin/jungle/airbase/exterior/fuel
+	name = "Airbase Fueling Depot Exterior"
+
+/area/ruin/jungle/airbase/exterior/south
+	name = "Airbase Southern Exterior"
+
+/area/ruin/jungle/airbase/inactive_fighter
+	name = "Deserviced Fighter"
+
+/area/ruin/jungle/airbase/wrecked_fighter
+	name = "Rusting Wreckage"
+
 
 // Syndicate fort
 

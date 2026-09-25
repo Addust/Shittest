@@ -547,3 +547,9 @@
 	name = "Flail-class Modified Boarder"
 	token_icon_state = "ship_tiny_generic"
 	prefix = "ISV"
+
+/datum/map_template/shuttle/subshuttles/beetle
+	file_name = "independent_beetle"
+	name = "Beetle-class Fuel Tug"
+	token_icon_state = "ship_tiny_generic"
+	prefix = "ISV"

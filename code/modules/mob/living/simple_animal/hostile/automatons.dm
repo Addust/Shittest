@@ -205,6 +205,10 @@
 	aggro_say_chance = 70
 	faction = list(FACTION_HOSTILE)
 
+/mob/living/simple_animal/hostile/automated/agrav/cybersun/ramzi
+	desc = "An advanced form of loitering munition designed by Cybersun as the ICW came to a close; the Verefasa contains a barely-sentient combat AI for autonomous operations, a gravitic induction drive, and a microfusion heart. This one seems to have been captured and repurposed by the Ramzi Clique for their own ends."
+	faction = list(FACTION_RAMZI)
+
 //bipedal
 
 /mob/living/simple_animal/hostile/automated/bipedal
@@ -238,6 +242,9 @@
 		if(!bonk.anchored)
 			var/atom/throw_target = get_edge_target_turf(bonk, src.dir)
 			bonk.throw_at(throw_target, rand(1,3), 2, src, gentle = TRUE)
+
+/mob/living/simple_animal/hostile/automated/bipedal/ramzi
+	faction = list(FACTION_RAMZI)
 
 /mob/living/simple_animal/hostile/automated/bipedal/makosso
 	desc = "A lumbering automaton garbed in Tri-Corp titanium, with an integrated plasma rifle attached in place of a left arm. The simple algorithms driving its servos level the plasma rifle in your direction."
@@ -401,6 +408,9 @@
 
 /mob/living/simple_animal/hostile/automated/hopper/coalition
 	name = "Al'sa CQB 'Hopper'"
-	desc = "A specialized drone made by the Al'sa Guild for quick skirmishes at close range, nicknamed 'Hopper' for its way of running. Sought after by both Makosso-Warra and the Coalition during the ICW, many were sold off and produced locally in the frontier. This model is painted in the colors of the Syndicate Coalition"
+	desc = "A specialized drone made by the Al'sa Guild for quick skirmishes at close range, nicknamed 'Hopper' for its way of running. Sought after by both Makosso-Warra and the Coalition during the ICW, many were sold off and produced locally in the frontier. This model is painted in the colors of the Syndicate Coalition."
 	faction = list(FACTION_HOSTILE)
 	icon_state = "hopper_coalition"
+
+/mob/living/simple_animal/hostile/automated/hopper/coalition/ramzi
+	faction = list(FACTION_RAMZI)

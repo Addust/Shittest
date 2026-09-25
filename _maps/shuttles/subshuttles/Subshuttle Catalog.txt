@@ -112,3 +112,8 @@ Name = "June Dropship"
 Size = "12x6"
 Purpose = "A replacement shuttle for expensive Brood-class shuttles, for the Goliath-class Fleet Tender. Large and carries much."
 File Path = "_maps\shuttles\subshuttles\independent_june"
+
+Name = "Beetle-class Fuel Tug"
+Size = "9x6"
+Purpose = "A heavy ICW-era fuel tug once used to resupply Gorlex Marauder fighters in the field. Its rusting hulk now sees use by the Ramzi Clique to resupply their frigates."
+File Path = "_maps\shuttles\subshuttles\independent_beetle.dmm"
