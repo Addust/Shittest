@@ -526,7 +526,7 @@
 	icon_living = "syndicate_shotgun"
 	casingtype = /obj/item/ammo_casing/shotgun/buckshot //buckshot fired in a two-round burst. This will two-tap unarmored players.
 	projectilesound = 'sound/weapons/gun/shotgun/bulldog.ogg'
-	l_hand =/obj/item/gun/ballistic/shotgun/automatic/bulldog/bockadam
+	l_hand = /obj/item/gun/ballistic/shotgun/automatic/bulldog/bockadam
 	shoot_point_blank = TRUE
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/shotgun/ballistic
@@ -550,7 +550,7 @@
 	name = "Ramzi Clique Firestarter"
 	desc = "A deserter from the Gorlex Marauders turned pirate. Their finger twitches around the trigger of their combat shotgun."
 	casingtype = /obj/item/ammo_casing/shotgun/incendiary
-	l_hand =/obj/item/gun/ballistic/shotgun/automatic/bulldog
+	l_hand = /obj/item/gun/ballistic/shotgun/automatic/bulldog
 	rapid = 1
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/sniper

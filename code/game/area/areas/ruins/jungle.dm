@@ -54,6 +54,14 @@
 	name = "Airbase Quarters"
 	icon_state = "crew_quarters"
 
+/area/ruin/jungle/airbase/canteen
+	name = "Airbase Mess Hall"
+	icon_state = "cafeteria"
+
+/area/ruin/jungle/airbase/bar
+	name = "Airbase Bar"
+	icon_state = "cafeteria"
+
 /area/ruin/jungle/airbase/armory
 	name = "Airbase Armory"
 	icon_state = "red"
