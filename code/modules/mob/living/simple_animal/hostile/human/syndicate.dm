@@ -202,6 +202,12 @@
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/engi
 	armor_base = /obj/item/clothing/suit/ramzi
 
+/mob/living/simple_animal/hostile/human/ramzi/melee/sledge/marine
+	name = "Ramzi Clique Piledriver"
+	desc = "A towering, silent figure clad in heavy stamped plasteel armour. A glowing dirty-yellow visor conceals their eyes as they turn to face you, and their palms are twisted around the shaft of a crimson-black sledgehammer."
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/medium/ramzi
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine/heavy
+
 /* Space Melee */
 
 /mob/living/simple_animal/hostile/human/ramzi/melee/space
@@ -386,6 +392,12 @@
 	retreat_distance = 0
 	environment_smash = 0
 
+/mob/living/simple_animal/hostile/human/ramzi/ranged/cottonmouth/engineer
+	name = "Ramzi Clique Foreman"
+	desc = "A deserter from the Gorlex Marauders turned pirate. They firmly grasp a machinepistol bent and twisted by their will, a tattered beret topping their well-worn respirator and jacket."
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/engi/beret
+	armor_base = /obj/item/clothing/suit/ramzi
+
 /mob/living/simple_animal/hostile/human/ramzi/ranged/smg
 	name = "Ramzi Clique Commando"
 	desc = "A deserter from the Gorlex Marauders turned pirate. They scan the room with their submachinegun held at eye level, sweeping every corner."
@@ -421,6 +433,26 @@
 /mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/gunsmith
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/trooper
 	armor_base = /obj/item/clothing/suit/armor/ramzi/bulletproof
+
+/mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/marine
+	name = "Ramzi Clique Pointman"
+	desc = "A deserter from the Gorlex Marauders turned pirate. They scan the room with their assault rifle held to level with their respirator, its sling resting around a heavy chunk of stamped plasteel armour worn over their chest."
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/ramzi
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine
+
+/mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/heavy
+	name = "Ramzi Clique Stormtrooper"
+	desc = "A deserter from the Gorlex Marauders turned pirate. A heavy repurposed welding visor covers where their eyes ought to be as they calmly sweep their rifle side-to-side, scanning the room with disdain."
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/medium/ramzi
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine/heavy
+
+/mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/heavy/saw
+	name = "Ramzi Clique Repressor"
+	desc = "A terrifying, almost-motionless figure wielding a SAW-80 support weapon. Their head is covered by a heavily-armoured welding visor, the yellow glow of its integrated ballistic goggles hiding a figure that has discarded all mercy."
+	l_hand = /obj/item/gun/ballistic/automatic/assault/hydra/lmg/extended
+	rapid = 6
+	spread = 9
+
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/dmr
 	name = "Ramzi Clique Tracker"
@@ -552,6 +584,18 @@
 	casingtype = /obj/item/ammo_casing/shotgun/incendiary
 	l_hand = /obj/item/gun/ballistic/shotgun/automatic/bulldog
 	rapid = 1
+
+/mob/living/simple_animal/hostile/human/ramzi/ranged/shotgun/marine
+	name = "Ramzi Clique Pointman"
+	desc = "A deserter from the Gorlex Marauders turned pirate. They calmly level a hefty Bockadam shotgun in your direction, thick military-grade armour protecting them from any retaliation you may have to offer."
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/ramzi
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine
+
+/mob/living/simple_animal/hostile/human/ramzi/ranged/shotgun/marine/heavy
+	name = "Ramzi Clique Charger" //HL:A reference??? in the year of our lord 507 FSC???? (wallhammer is too expensive and would imply a shield)
+	desc = "A towering figure in stamped plasteel combat armour, adorned with a glowing, dirty-yellow welding visor. They cradle the unmistakable bulk of a Bockadam shotgun, leveling it in your direction with a sense of disdain."
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/medium/ramzi
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine/heavy
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/sniper
 	name = "Ramzi Clique Overwatch"
@@ -757,6 +801,7 @@
 /mob/living/simple_animal/hostile/human/ramzi/ranged/space/shotgun/incendiary
 	name = "Ramzi Clique Boiler"
 	desc = "A deserter from the Gorlex Marauders turned pirate. The hateful eyes of a hardsuit stare down the sight of a Bulldog shotgun, elegance in its movements."
+	l_hand = /obj/item/gun/ballistic/shotgun/automatic/bulldog
 	rapid = 1
 	casingtype = /obj/item/ammo_casing/shotgun/incendiary
 

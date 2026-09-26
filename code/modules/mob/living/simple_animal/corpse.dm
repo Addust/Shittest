@@ -81,11 +81,19 @@
 	name = "Ramzi Grinder Guy"
 	outfit = /datum/outfit/ramzi/engi/grinder
 
-
 /datum/outfit/ramzi/engi/grinder
 	name = "Ramzi Angle Grinder Technician"
 	suit = /obj/item/clothing/suit/armor/ramzi
 	back = /obj/item/gear_pack/anglegrinder
+
+
+/obj/effect/mob_spawn/human/corpse/ramzi/engi/beret
+	name = "Ramzi Foreman"
+	outfit = /datum/outfit/ramzi/engi/beret
+
+/datum/outfit/ramzi/engi/beret
+	name = "Ramzi Foreman"
+	head = /obj/item/clothing/head/ramzi/beret
 
 /obj/effect/mob_spawn/human/corpse/ramzi/doctor
 	name = "Ramzi Field Medic"
@@ -107,9 +115,28 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/ramzi
 	neck = /obj/item/clothing/neck/dogtag/ramzi
 
+/datum/outfit/ramzi/bulletproof/marine
+	name = "Ramzi Clique Light Marine"
+	suit = /obj/item/clothing/suit/armor/vest/marine/ramzi
+	mask = /obj/item/clothing/mask/gas/ramzi
+	belt = /obj/item/storage/belt/security/webbing/ramzi
+
+/datum/outfit/ramzi/bulletproof/marine/heavy
+	name = "Ramzi Clique Marine"
+	suit = /obj/item/clothing/suit/armor/vest/marine/medium/ramzi
+	head = /obj/item/clothing/head/helmet/ramzi
+
 /obj/effect/mob_spawn/human/corpse/ramzi/trooper
 	name = "Ramzi Trooper"
 	outfit = /datum/outfit/ramzi/bulletproof
+
+/obj/effect/mob_spawn/human/corpse/ramzi/marine
+	name = "Ramzi Marine Light"
+	outfit = /datum/outfit/ramzi/bulletproof/marine
+
+/obj/effect/mob_spawn/human/corpse/ramzi/marine/heavy
+	name = "Ramzi Marine Heavy"
+	outfit = /datum/outfit/ramzi/bulletproof/marine/heavy
 
 /obj/effect/mob_spawn/human/corpse/ramzi/space
 	name = "Ramzi Hardsuit"
