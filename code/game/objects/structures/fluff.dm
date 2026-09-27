@@ -301,3 +301,16 @@
 
 	var/line = pick(line_list)
 	say(line)
+
+/obj/structure/fluff/fakeartillery
+	name = "broken-down howitzer"
+	desc = "A manual, crew-operated and towable howitzer, would rain down shells on any of your foes if it still worked. Its fire-control system seems to have been broken one way or another."
+	icon = 'icons/obj/machines/howitzer.dmi'
+	icon_state = "howitzer_deployed"
+	deconstructible = FALSE //just hit it with a hammer man
+
+/obj/structure/fluff/fakeartillery/vls
+	name = "\improper broken-down missile launch tube"
+	desc = "A tube covered with a hatch, letting out guided missles upon being fired. It seems to have malfunctioned and jammed, becoming completely inoperative."
+	icon = 'icons/obj/machines/vls.dmi'
+	icon_state = "vls_deployed"

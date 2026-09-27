@@ -453,6 +453,11 @@
 	rapid = 6
 	spread = 9
 
+/mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/heavy/saw/sentry
+	stop_automated_movement = 1
+	wander = 0
+	retreat_distance = 0
+	environment_smash = 0
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/dmr
 	name = "Ramzi Clique Tracker"
