@@ -436,7 +436,7 @@
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/marine
 	name = "Ramzi Clique Pointman"
-	desc = "A deserter from the Gorlex Marauders turned pirate. They scan the room with their assault rifle held to level with their respirator, its sling resting around a heavy chunk of stamped plasteel armour worn over their chest."
+	desc = "A deserter from the Gorlex Marauders turned pirate. They scan the room with their assault rifle held level with their respirator, its sling resting around a heavy chunk of stamped plasteel armour worn over their chest."
 	armor_base = /obj/item/clothing/suit/armor/vest/marine/ramzi
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine
 
@@ -451,7 +451,7 @@
 	desc = "A terrifying, almost-motionless figure wielding a SAW-80 support weapon. Their head is covered by a heavily-armoured welding visor, the yellow glow of its integrated ballistic goggles hiding a figure that has discarded all mercy."
 	l_hand = /obj/item/gun/ballistic/automatic/assault/hydra/lmg/extended
 	rapid = 6
-	spread = 9
+	spread = 14 //a 6-burst is FUCKING EVIL especially when the person firing it has medtac
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/hydra/heavy/saw/sentry
 	stop_automated_movement = 1
@@ -597,7 +597,7 @@
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/shotgun/marine/heavy
-	name = "Ramzi Clique Charger" //HL:A reference??? in the year of our lord 507 FSC???? (wallhammer is too expensive and would imply a shield)
+	name = "Ramzi Clique Charger" //HL:A reference??? in the year of our lord 507 FSC????
 	desc = "A towering figure in stamped plasteel combat armour, adorned with a glowing, dirty-yellow welding visor. They cradle the unmistakable bulk of a Bockadam shotgun, leveling it in your direction with a sense of disdain."
 	armor_base = /obj/item/clothing/suit/armor/vest/marine/medium/ramzi
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/ramzi/marine/heavy
